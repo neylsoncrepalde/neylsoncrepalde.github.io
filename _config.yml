@@ -28,8 +28,7 @@ avatar: "/img/avatar-icon.png"
 # List of links in the navigation bar
 navbar-links:
   Home: ""
-  About Me: "aboutme.md"
-  Author's home: ""
+  Conheça o Prof.: "/aboutme.md"
   
 # --- Footer options --- #
 
