@@ -11,7 +11,7 @@ na rede.
 
 Qualquer dúvida, não hesitem em comentar e me escrever.
 
-Visitem também minha página no [Facebook](www.facebook.com/neylson.crepalde) e no [Twitter](www.twitter.com/ncrepalde).
+Visitem também minha página no [Facebook](https://www.facebook.com/neylson.crepalde) e no [Twitter](https://www.twitter.com/ncrepalde).
 
 Abraços,
 
