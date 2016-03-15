@@ -15,25 +15,6 @@ install.packages("sand")
 library(sand)
 ```
 
-    ## Loading required package: igraph
-
-    ## 
-    ## Attaching package: 'igraph'
-
-    ## The following objects are masked from 'package:stats':
-    ## 
-    ##     decompose, spectrum
-
-    ## The following object is masked from 'package:base':
-    ## 
-    ##     union
-
-    ## Loading required package: igraphdata
-
-    ## 
-    ## Statistical Analysis of Network Data with R
-    ## Type in C2 (+ENTER) to start with Chapter 2.
-
 Vamos começar a trabalhar com algumas visualizações da rede de associações de advogados em New England (LAZEGA, 2001). Para conhecer melhor os dados digite o código
 
 ``` r
