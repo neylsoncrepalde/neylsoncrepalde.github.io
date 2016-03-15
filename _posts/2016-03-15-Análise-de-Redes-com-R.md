@@ -2,11 +2,11 @@
 layout: post
 title: Análise de Redes com R
 author: Neylson Crepalde - GIARS
-date: 15 de Março de 2016
+date: 2016, March 15
 ---
 Este tutorial visa esclarecer como realizar alguns passos da análise de redes sociais usando o ambiente R.
 
-Primeiro, carregamos os pacotes **sand** que contém os bancos de dados que usaremos e **igraph** usado para análises. O pacote **sand** carrega automaticamente o pacote **igraph** e, por isso, não precisamos cham?-lo novamente. Se houver um erro indicando que o pacote não está instalado, digite o código
+Primeiro, carregamos os pacotes **sand** que contém os bancos de dados que usaremos e **igraph** usado para análises. O pacote **sand** carrega automaticamente o pacote **igraph** e, por isso, não precisamos chamá-lo novamente. Se houver um erro indicando que o pacote não está instalado, digite o código
 
 ``` r
 install.packages("sand")
