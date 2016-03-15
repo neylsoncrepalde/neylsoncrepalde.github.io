@@ -28,19 +28,19 @@ lazega <- upgrade_graph(lazega)
 plot(lazega, vertex.label=NA)
 ```
 
-![](analise_de_redes_com_r_markdown_files/figure-markdown_github/unnamed-chunk-4-1.png)
+![](/img/unnamed-chunk-4-1.png)
 
 ``` r
 plot(lazega, layout=layout_with_kk(lazega), vertex.label=NA, vertex.size=10)
 ```
 
-![](analise_de_redes_com_r_markdown_files/figure-markdown_github/unnamed-chunk-4-2.png)
+![](/img/unnamed-chunk-4-2.png)
 
 ``` r
 plot(lazega, layout=layout_with_fr(lazega), vertex.label=NA, vertex.size=8)
 ```
 
-![](analise_de_redes_com_r_markdown_files/figure-markdown_github/unnamed-chunk-4-3.png)
+![](/img/unnamed-chunk-4-3.png)
 
 Às vezes é necessário investigar os arcos existentes no grafo. Para isso use o comando
 
@@ -120,7 +120,7 @@ grau <- degree(lazega)
 hist(grau)
 ```
 
-![](analise_de_redes_com_r_markdown_files/figure-markdown_github/unnamed-chunk-7-1.png)
+![](/img/unnamed-chunk-7-1.png)
 
 ``` r
 grau
@@ -158,7 +158,7 @@ plot(d[ind], dist.grau[ind], log="xy", pch=19,
 legend("bottomleft", "Distribuição de grau na escala log-log")
 ```
 
-![](analise_de_redes_com_r_markdown_files/figure-markdown_github/unnamed-chunk-8-1.png)
+![](/img/unnamed-chunk-8-1.png)
 
 Referências
 -----------
