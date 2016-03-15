@@ -1,0 +1,66 @@
+---
+title: "Análise de Redes com R"
+author: "GIARS"
+date: "Março de 2016"
+output: html_document
+---
+
+Este tutorial visa esclarecer como realizar alguns passos da análise de redes sociais usando o ambiente R.
+
+Primeiro, carregamos os pacotes **sand** que contém os bancos de dados que usaremos e **igraph** usado para análises. O pacote **sand** carrega automaticamente o pacote **igraph** e, por isso, não precisamos chamá-lo novamente. Se houver um erro indicando que o pacote não está instalado, digite o código 
+```{r eval=F}
+install.packages("sand")
+```
+```{r}
+library(sand)
+```
+
+Vamos começar a trabalhar com algumas visualizações da rede de associações de advogados em New England (LAZEGA, 2001). Para conhecer melhor os dados digite o código 
+```{r eval=F}
+help(lazega)
+```
+Primeiro, vamos atualizar os dados para que a nova versão do **igraph** não fique colocando *warnings* desnecessários. Depois, vamos gerar 3 visualizações, a primeira com um layout *default*, a segunda com um layout *Kamada Kawai* e a terceira com um layout *Fruchterman-Reingold*. Usaremos também o comando **vertex.label=NA** para especificar que não queremos imprimir labels nos vértices da rede e **vertex.size** para especificar o tamanho dos vértices. 
+
+```{r}
+lazega <- upgrade_graph(lazega)
+plot(lazega, vertex.label=NA)
+plot(lazega, layout=layout_with_kk(lazega), vertex.label=NA, vertex.size=10)
+plot(lazega, layout=layout_with_fr(lazega), vertex.label=NA, vertex.size=8)
+```
+
+Às vezes é necessário investigar os arcos existentes no grafo. Para isso use o comando 
+```{r}
+E(lazega)
+```
+Para obter a matriz de adjacências, use 
+```{r}
+get.adjacency(lazega)
+```
+
+Medidas Descritivas
+-------------------
+
+Agora, vamos obter algumas medidas descritivas da rede. Para obtermos a distribuição de grau faça
+```{r}
+grau <- degree(lazega)
+hist(grau)
+grau
+summary(grau)
+```
+Para investigar a distribuição de grau, podemos usar
+```{r}
+dist.grau <- degree.distribution(lazega)
+d <- 1:max(grau)-1
+ind <- grau !=0
+plot(d[ind], dist.grau[ind], log="xy", pch=19,
+     xlab=c("Log-Degree"), ylab=c("Log-Intensity"), main="Log-Log Degree Distribution")
+legend("bottomleft", "Distribuição de grau na escala log-log")
+```
+
+
+Referências
+-----------
+
+KOLACZYK, Eric D.; CSÁRDI, Gábor. **Statistical analysis of network data with R**. New York, NY: Springer, 2014.
+
+LAZEGA, Emmanuel. **The Collegial Phenomenon**: The Social Mechanisms of Cooperation Among Peers in a Corporate Law Partnership. Oxford: Oxford University Press, 2001.
