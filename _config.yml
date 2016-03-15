@@ -29,6 +29,8 @@ avatar: "/img/Neylson.jpg"
 navbar-links:
   Página Inicial: ""
   Conheça o Prof.: "aboutme"
+  Publicações: "publicacoes"
+nav-search: "search"
   
 # --- Footer options --- #
 
