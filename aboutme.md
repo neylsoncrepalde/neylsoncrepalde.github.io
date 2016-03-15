@@ -9,7 +9,7 @@ O Prof. Neylson Crepalde é Doutorando e Mestre em Sociologia pela Universidade 
 Pesquisa e Extensão Universitária
 ---------------------
 
- - Projeto de Extensão ["Produção de Eventos Artísticos"](neylsoncrepalde.wix.com/extensaopea)
+ - Projeto de Extensão ["Produção de Eventos Artísticos"](http://neylsoncrepalde.wix.com/extensaopea)
  - Projeto de Extensão **"Coral Izabela Hendrix"**
 
 
