@@ -14,7 +14,7 @@ Usando os pacotes **twitteR** e **tm**, fiz uma busca no Twitter pela palavra-ch
 nessa mídia social bem no "calor do momento". Pretendo, em breve, publicar um post comentando o código utilizado para a análise com um
 breve tutorial.
 
-Gerei 2 *wordclouds*, o primeiro com dados coletados às 22:57 de ontem e o segundo com tweets coletados às 00:19 de hoje.
+A busca retornou 2000 tweets. Gerei 2 *wordclouds*, o primeiro com dados coletados às 22:57 de ontem e o segundo com tweets coletados às 00:19 de hoje.
 
 ![lula1](/img/wordcloud_lula.jpeg) ![lula2](/img/wordcloud_lula2.jpeg)
 
