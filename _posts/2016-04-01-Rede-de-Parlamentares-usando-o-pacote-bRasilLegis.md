@@ -76,7 +76,7 @@ write.table(atributos, "C:/.../Documents/atributos.csv",
             sep = ";")
 ```
 
-Agora, vamos começar montando a rede. Após carregar o pacote **igraph**, vamos importar o edge.list para um objeto reconhecido pelo pacote. Lembre-se de as redes 2-mode (bipartidas) são sempre **não** direcionadas. Para que o pacote reconheça uma rede 2-mode, é necessário um atributo para vértice chamado type contendo um vetor lógico TRUE-FALSE. A vantagem do **igraph** é que não precisamos dizer a ele essa informação. O pacote reconhece os dois modos da rede através do comando **bipartite.mapping()**. Depois de guardar o vetor lógico em um objeto que chamamos de **bip**, criamos o atribute type e extraindo o vetor lógico do objeto **bip**. Podemos *plotá-lo* logo em seguida sem nenhuma especificação só para termos certeza de que o processo ocorreu normalmente.
+Agora, vamos montar a rede. Após carregar o pacote **igraph**, vamos importar o edge.list para um objeto reconhecido pelo pacote. Lembre-se de as redes 2-mode (bipartidas) são sempre **não** direcionadas. Para que o pacote reconheça uma rede 2-mode, é necessário um atributo para vértice chamado type contendo um vetor lógico TRUE-FALSE. A vantagem do **igraph** é que não precisamos dizer a ele essa informação. O pacote reconhece os dois modos da rede através do comando **bipartite.mapping()**. Depois de guardar o vetor lógico em um objeto que chamamos de **bip**, criamos o atribute type e extraindo o vetor lógico do objeto **bip**. Podemos *plotá-lo* logo em seguida sem nenhuma especificação só para termos certeza de que o processo ocorreu normalmente.
 
 ``` r
 library(igraph)
