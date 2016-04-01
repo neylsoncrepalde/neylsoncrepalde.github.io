@@ -70,9 +70,9 @@ atributos <- unique(atributos)
 Se você quiser exportar o edge.list e a matriz de atributos para usar com o UCINET, por exemplo, podemos gravá-la em um arquivo .csv da seguinte maneira:
 
 ``` r
-write.table(edge.list, "C:/Users/Neylson/Documents/edge_list.csv",
+write.table(edge.list, "C:/.../Documents/edge_list.csv",
             sep = ";")
-write.table(atributos, "C:/Users/Neylson/Documents/atributos.csv",
+write.table(atributos, "C:/.../Documents/atributos.csv",
             sep = ";")
 ```
 
