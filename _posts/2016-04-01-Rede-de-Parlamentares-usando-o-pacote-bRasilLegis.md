@@ -29,7 +29,7 @@ orgao.id <- orgaos$id
 orgao.id <- as.numeric(orgao.id)
 ```
 
-Aqui, já deixamos os números de registro das comissões em formato numérico pois queremos capturar a participação em várias comissões de uma vez através de um loop. Sabemos que a captura de dados online pode ser *tricky* e erros normalmente fazem o código parar. Para que isso aconteça, inseri um pequeno condicional para que a captura seja tentada. Caso fracasse (porque não há registros da comissão ou qualquer outro motivo que seja), pulamos para a próxima.
+Aqui, já deixamos os números de registro das comissões em formato numérico pois queremos capturar a participação em várias comissões de uma vez através de um loop. Sabemos que a captura de dados online pode ser *tricky* e erros normalmente fazem o código parar. Para que isso não aconteça, inseri um pequeno condicional para que a captura seja tentada. Caso fracasse (porque não há registros da comissão ou qualquer outro motivo que seja), pulamos para a próxima.
 
 Para realizar a captura e organizar tudo direto num *data frame*, use os seguintes comandos:
 
