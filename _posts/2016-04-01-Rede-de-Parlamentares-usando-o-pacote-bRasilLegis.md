@@ -173,7 +173,8 @@ Agora é só plotar a rede de partidos usando os labels dos partidos que criamos
 ``` r
 plot(rede.partidos, layout=layout_with_kk(rede.partidos), vertex.label=V(rede.partidos)$name,
      vertex.size=V(rede.partidos)$count)
-title(main="Brazilian Parties Network - Parliament\n2016-03-23", xlab="Size = Number of Deputies\nEdge = Co-affiliation in Commissions")
+title(main="Brazilian Parties Network - Parliament\n2016-03-23", 
+      xlab="Size = Number of Deputies\nEdge = Co-affiliation in Commissions")
 ```
 
 ![](/img/2016-04-01-brasillegis_files/figure-markdown_github/brasillegis15-1.png)<!-- -->
