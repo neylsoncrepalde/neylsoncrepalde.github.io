@@ -29,7 +29,7 @@ orgao.id <- orgaos$id
 orgao.id <- as.numeric(orgao.id)
 ```
 
-Aqui, já deixamos os números de registro das comissões em formato numérico pois queremos capturar a participação em várias comissões de uma vez através de um loop. Sabemos que a captura de dados online pode ser *tricky* e erros normalmente fazem o código parar. Para que isso aconteça, inseri um pequeno condicional para que a captura seja tentada. Caso fracasse (porque não há registros da comissão ou qualquer outro motivo que seja) pulamos para a próxima.
+Aqui, já deixamos os números de registro das comissões em formato numérico pois queremos capturar a participação em várias comissões de uma vez através de um loop. Sabemos que a captura de dados online pode ser *tricky* e erros normalmente fazem o código parar. Para que isso aconteça, inseri um pequeno condicional para que a captura seja tentada. Caso fracasse (porque não há registros da comissão ou qualquer outro motivo que seja), pulamos para a próxima.
 
 Para realizar a captura e organizar tudo direto num *data frame*, use os seguintes comandos:
 
@@ -70,13 +70,11 @@ atributos <- unique(atributos)
 Se você quiser exportar o edge.list e a matriz de atributos para usar com o UCINET, por exemplo, podemos gravá-la em um arquivo .csv da seguinte maneira:
 
 ``` r
-write.table(edge.list, "C:/.../Documents/edge_list.csv",
-            sep = ";")
-write.table(atributos, "C:/.../Documents/atributos.csv",
-            sep = ";")
+write.table(edge.list, "C:/.../Documents/edge_list.csv", sep = ";")
+write.table(atributos, "C:/.../Documents/atributos.csv", sep = ";")
 ```
 
-Agora, vamos montar a rede. Após carregar o pacote **igraph**, vamos importar o edge.list para um objeto reconhecido pelo pacote. Lembre-se de as redes 2-mode (bipartidas) são sempre **não** direcionadas. Para que o pacote reconheça uma rede 2-mode, é necessário um atributo para vértice chamado type contendo um vetor lógico TRUE-FALSE. A vantagem do **igraph** é que não precisamos dizer a ele essa informação. O pacote reconhece os dois modos da rede através do comando **bipartite.mapping()**. Depois de guardar o vetor lógico em um objeto que chamamos de **bip**, criamos o atribute type e extraindo o vetor lógico do objeto **bip**. Podemos *plotá-lo* logo em seguida sem nenhuma especificação só para termos certeza de que o processo ocorreu normalmente.
+Agora, vamos montar a rede. Após carregar o pacote **igraph**, vamos importar o edge.list para um objeto reconhecido pelo pacote. Lembre-se de as redes 2-mode (bipartidas) são sempre **não** direcionadas. Para que o pacote reconheça uma rede 2-mode, é necessário um atributo para os vértices chamado **type** contendo um vetor lógico TRUE-FALSE. A vantagem do **igraph** é que não precisamos dizer a ele essa informação. O pacote reconhece os dois modos da rede através do comando **bipartite.mapping()**. Depois de guardar o vetor lógico em um objeto que chamamos de **bip**, criamos o atribute type extraindo o vetor lógico do objeto bip.
 
 ``` r
 library(igraph)
