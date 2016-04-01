@@ -1,7 +1,10 @@
-2016-04-01-bRasilLegis
-================
-Neylson Crepalde (GIARS)
-1 de abril de 2016
+---
+layout: post
+title: Rede de Parlamentares usando o pacote bRasilLegis
+subtitle: Neylson Crepalde (GIARS
+date: 2016, April 01
+
+---
 
 Olá. Neste tutorial vou utilizar o pacote [**bRasilLegis**](https://github.com/leobarone/bRasilLegis) desenvolvido pelo [Leonardo Barone](https://www.facebook.com/leonardo.s.barone) e pela [Alexia Aslan](https://www.facebook.com/alexiaaslan) para montar uma rede de parlamentares. O "plano de vôo" é obter uma rede de afiliações de parlamentares em comissões e, a partir delas, transformá-la numa rede 1-mode de parlamentares. À medida que formos desenvolvendo o código, tentarei dar algumas (mui breves) explicações teóricas a respeito do processo. Qualquer dúvida, deixe um comentário, me mande um e-mail ou uma mensagem no [Facebook](https://www.facebook.com/neylson.crepalde).
 
@@ -50,139 +53,6 @@ for (i in orgao.id){
 }
 ```
 
-    ## [1] 2001
-    ## [1] "erro"
-    ## [1] 2003
-    ## [1] "erro"
-    ## [1] 2002
-    ## [1] "erro"
-    ## [1] 536996
-    ## [1] "erro"
-    ## [1] 2004
-    ## [1] "erro"
-    ## [1] 2008
-    ## [1] "erro"
-    ## [1] 2007
-    ## [1] "erro"
-    ## [1] 2006
-    ## [1] "erro"
-    ## [1] 2009
-    ## [1] "erro"
-    ## [1] 537462
-    ## [1] 537858
-    ## [1] 537750
-    ## [1] 537440
-    ## [1] 537388
-    ## [1] 537389
-    ## [1] 537500
-    ## [1] 537853
-    ## [1] 537343
-    ## [1] 537342
-    ## [1] 537758
-    ## [1] 537236
-    ## [1] "erro"
-    ## [1] 537756
-    ## [1] 537737
-    ## [1] 537765
-    ## [1] 2011
-    ## [1] "erro"
-    ## [1] 2010
-    ## [1] "erro"
-    ## [1] 2017
-    ## [1] "erro"
-    ## [1] 5438
-    ## [1] "erro"
-    ## [1] 6174
-    ## [1] "erro"
-    ## [1] 2012
-    ## [1] "erro"
-    ## [1] 6722
-    ## [1] 537463
-    ## [1] "erro"
-    ## [1] 537461
-    ## [1] 6855
-    ## [1] "erro"
-    ## [1] 537226
-    ## [1] "erro"
-    ## [1] 537225
-    ## [1] "erro"
-    ## [1] 5971
-    ## [1] 537480
-    ## [1] "erro"
-    ## [1] 537842
-    ## [1] 537731
-    ## [1] 537849
-    ## [1] 537792
-    ## [1] 537733
-    ## [1] 2018
-    ## [1] "erro"
-    ## [1] 5503
-    ## [1] "erro"
-    ## [1] 2014
-    ## [1] "erro"
-    ## [1] 2015
-    ## [1] "erro"
-    ## [1] 6066
-    ## [1] "erro"
-    ## [1] 2016
-    ## [1] "erro"
-    ## [1] 5973
-    ## [1] 4
-    ## [1] 537713
-    ## [1] 537727
-    ## [1] 537753
-    ## [1] 537674
-    ## [1] 537356
-    ## [1] 537381
-    ## [1] 537703
-    ## [1] 537347
-    ## [1] 537773
-    ## [1] 537763
-    ## [1] 537383
-    ## [1] 537385
-    ## [1] 537483
-    ## [1] 537409
-    ## [1] 537363
-    ## [1] 537725
-    ## [1] 537553
-    ## [1] 537401
-    ## [1] 537716
-    ## [1] 537710
-    ## [1] 537390
-    ## [1] 537516
-    ## [1] 537365
-    ## [1] 537797
-    ## [1] 537352
-    ## [1] 537622
-    ## [1] 537503
-    ## [1] 537743
-    ## [1] 537345
-    ## [1] 537367
-    ## [1] 537720
-    ## [1] 537711
-    ## [1] 537340
-    ## [1] 537745
-    ## [1] 537738
-    ## [1] 537392
-    ## [1] 537552
-    ## [1] 537650
-    ## [1] 537802
-    ## [1] 537369
-    ## [1] 537730
-    ## [1] 537349
-    ## [1] 537852
-    ## [1] 537715
-    ## [1] 537348
-    ## [1] 537525
-    ## [1] 537374
-    ## [1] 537399
-    ## [1] 537741
-    ## [1] 180
-    ## [1] "erro"
-    ## [1] 537378
-    ## [1] 537744
-    ## [1] 537400
-
 Como nosso intuito é obter uma rede a partir desses dados, precisamos de um formato que seja de fácil leitura para o pacote **igraph**. O formato **edge.list** (uma coluna com o nome de parlamentar e outra com o nome da comissão a qual ele pertence) é universalmente aceito pela maioria dos softwares que trabalham com ARS. Se você é usuário do sistema Windows e está trabalhando com o **UCINET**, por exemplo, esse formato pode ser facilmente aberto no programa. Com o **Pajek**, outro software excelente para ARS, funciona da mesma forma usando um programinha suplementar chamado **createpajek**.
 
 Para organizar os dados em uma edge.list, use o comando
@@ -211,20 +81,6 @@ Agora, vamos começar montando a rede. Após carregar o pacote **igraph**, vamos
 
 ``` r
 library(igraph)
-```
-
-    ## 
-    ## Attaching package: 'igraph'
-
-    ## The following objects are masked from 'package:stats':
-    ## 
-    ##     decompose, spectrum
-
-    ## The following object is masked from 'package:base':
-    ## 
-    ##     union
-
-``` r
 g <- graph_from_edgelist(edge.list, directed = F)
 bip <- bipartite.mapping(g)
 V(g)$type <- bip[[2]]
