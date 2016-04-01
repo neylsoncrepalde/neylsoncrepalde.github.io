@@ -1,9 +1,8 @@
 ---
 layout: post
 title: Rede de Parlamentares usando o pacote bRasilLegis
-subtitle: Neylson Crepalde (GIARS
+subtitle: Neylson Crepalde (GIARS)
 date: 2016, April 01
-
 ---
 
 Olá. Neste tutorial vou utilizar o pacote [**bRasilLegis**](https://github.com/leobarone/bRasilLegis) desenvolvido pelo [Leonardo Barone](https://www.facebook.com/leonardo.s.barone) e pela [Alexia Aslan](https://www.facebook.com/alexiaaslan) para montar uma rede de parlamentares. O "plano de vôo" é obter uma rede de afiliações de parlamentares em comissões e, a partir delas, transformá-la numa rede 1-mode de parlamentares. À medida que formos desenvolvendo o código, tentarei dar algumas (mui breves) explicações teóricas a respeito do processo. Qualquer dúvida, deixe um comentário, me mande um e-mail ou uma mensagem no [Facebook](https://www.facebook.com/neylson.crepalde).
@@ -98,7 +97,7 @@ is.bipartite(g)
 plot(g, vertex.size=4, vertex.color=as.numeric(V(g)$type)+4, vertex.label=NA)
 ```
 
-![](2016-04-01-brasillegis_files/figure-markdown_github/brasillegis09-1.png)<!-- -->
+![](/img/2016-04-01-brasillegis_files/figure-markdown_github/brasillegis09-1.png)<!-- -->
 
 Pronto. A rede está aí. Podemos plotá-la também usando os algoritmos Kamada-Kawai ou Fruchterman-Reingold:
 
@@ -107,14 +106,14 @@ plot(g, layout=layout_with_kk(g), vertex.size=4, vertex.color=as.numeric(V(g)$ty
 title(main = "Rede de afiliação de\nparlamentares em comissões", xlab = "Kamada-Kawai")
 ```
 
-![](2016-04-01-brasillegis_files/figure-markdown_github/brasillegis10-1.png)<!-- -->
+![](/img/2016-04-01-brasillegis_files/figure-markdown_github/brasillegis10-1.png)<!-- -->
 
 ``` r
 plot(g, layout=layout_with_fr(g), vertex.label=NA, vertex.size=4, vertex.color=as.numeric(V(g)$type)+4)
 title(main = "Rede de afiliação de\nparlamentares em comissões", xlab = "Fruchterman-Reingold")
 ```
 
-![](2016-04-01-brasillegis_files/figure-markdown_github/brasillegis10-2.png)<!-- -->
+![](/img/2016-04-01-brasillegis_files/figure-markdown_github/brasillegis10-2.png)<!-- -->
 
 Agora vamos começar as transformações. Vamos extrair uma matriz quadrada (1-mode) apenas dos parlamentares. Sabemos que eles estão com o valor FALSE no atributo *type*.
 
@@ -125,7 +124,7 @@ plot(parlamentares, layout=layout_with_kk(parlamentares),
 title(main = "Rede de Parlamentares\nEdge = Afiliação em Comissão")
 ```
 
-![](2016-04-01-brasillegis_files/figure-markdown_github/brasillegis11-1.png)<!-- -->
+![](/img/2016-04-01-brasillegis_files/figure-markdown_github/brasillegis11-1.png)<!-- -->
 
 Agora, vamos criar 3 atributos para cada vértice: o partido, o estado e um atributo de contagem = 1 porque pretendemos visualizar quantos parlamentares estão em cada partido. Em seguida vamos plotar as redes usando a cor para diferenciar os partidos e os estados.
 
@@ -138,7 +137,7 @@ plot(parlamentares, layout=layout_with_kk(parlamentares),
 title(main="Rede de Parlamentares", xlab = "Cor = Partido")
 ```
 
-![](2016-04-01-brasillegis_files/figure-markdown_github/brasillegis12-1.png)<!-- -->
+![](/img/2016-04-01-brasillegis_files/figure-markdown_github/brasillegis12-1.png)<!-- -->
 
 ``` r
 plot(parlamentares, layout=layout_with_kk(parlamentares), 
@@ -146,7 +145,7 @@ plot(parlamentares, layout=layout_with_kk(parlamentares),
 title(main="Rede de Parlamentares", xlab = "Cor = UF")
 ```
 
-![](2016-04-01-brasillegis_files/figure-markdown_github/brasillegis12-2.png)<!-- -->
+![](/img/2016-04-01-brasillegis_files/figure-markdown_github/brasillegis12-2.png)<!-- -->
 
 Podemos proceder com várias análises a partir desse grafo gerado: rodar escores de centralidade diversos, separar cluster e blocos (blockmodeling), mas deixaremos as questões de análise das redes propriamente dito para outro momento. Nesse ponto, quero extrair uma subrede apenas com os partidos. Para isso usamos o comando **contract.vertices**. O comando **simplify** limpa os loops (laços consigo mesmo) e laços múltiplos.
 
@@ -177,7 +176,7 @@ plot(rede.partidos, layout=layout_with_kk(rede.partidos), vertex.label=V(rede.pa
 title(main="Brazilian Parties Network - Parliament\n2016-03-23", xlab="Size = Number of Deputies\nEdge = Co-affiliation in Commissions")
 ```
 
-![](2016-04-01-brasillegis_files/figure-markdown_github/brasillegis15-1.png)<!-- -->
+![](/img/2016-04-01-brasillegis_files/figure-markdown_github/brasillegis15-1.png)<!-- -->
 
 Por hoje é só. Se tiverem dúvidas, não hesitem em perguntar. Fiquem sempre de olho no site do [GIARS](http://www.giars.ufmg.br/), o Grupo Interdisciplinar de Pesquisa em Análise de Redes Sociais da UFMG do qual faço parte. A [página de Facebook do grupo](https://www.facebook.com/giarsufmg) também é atualizada constantemente.
 
