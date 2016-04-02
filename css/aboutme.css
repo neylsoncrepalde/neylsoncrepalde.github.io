@@ -1,4 +1,5 @@
 img[alt="foto"] { 
+  float: center
   max-width:  730px; 
   display: block;
 }
