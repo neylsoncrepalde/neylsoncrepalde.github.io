@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Conheça o professor
-css: "/css/aboutme.css"
+
 ---
 ![foto](/img/Neylson.jpg)
 
