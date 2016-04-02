@@ -2,7 +2,7 @@
 layout: post
 title: O Cenário Político
 subtitle: Algumas análises rápidas
-tags: Content Analysis; Twitter; Politics
+tags: [Content Analysis, Twitter, Politics]
 author: Neylson Crepalde
 date: 2016, March 17
 ---
