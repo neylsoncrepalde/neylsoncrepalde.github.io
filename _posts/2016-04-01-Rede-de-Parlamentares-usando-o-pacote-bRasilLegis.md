@@ -3,6 +3,7 @@ layout: post
 title: Rede de Parlamentares usando o pacote bRasilLegis
 subtitle: Neylson Crepalde (GIARS)
 date: 2016, April 01
+tags: [Big Data, Social Network Analysis, bRasilLegis, igraph, Parliament]
 ---
 
 Olá. Neste tutorial vou utilizar o pacote [**bRasilLegis**](https://github.com/leobarone/bRasilLegis) desenvolvido pelo [Leonardo Barone](https://www.facebook.com/leonardo.s.barone) e pela [Alexia Aslan](https://www.facebook.com/alexiaaslan) para montar uma rede de parlamentares. O "plano de vôo" é obter uma rede de afiliações de parlamentares em comissões e, a partir delas, transformá-la numa rede 1-mode de parlamentares. À medida que formos desenvolvendo o código, tentarei dar algumas (mui breves) explicações teóricas a respeito do processo. Qualquer dúvida, deixe um comentário, me mande um e-mail ou uma mensagem no [Facebook](https://www.facebook.com/neylson.crepalde).
