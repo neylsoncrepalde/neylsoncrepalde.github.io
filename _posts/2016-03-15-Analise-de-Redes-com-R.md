@@ -3,6 +3,7 @@ layout: post
 title: Análise de Redes com R
 author: Neylson Crepalde - GIARS
 date: 2016, March 15
+tags: [Análise de Redes Sociais, visualização]
 ---
 Este tutorial visa esclarecer como realizar alguns passos da análise de redes sociais usando o ambiente R.
 
