@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Conheça o professor
+css: "/css/aboutme.css"
 ---
 ![foto](https://neylsoncrepalde.files.wordpress.com/2015/01/neylson-crepalde-1.jpg)
 
