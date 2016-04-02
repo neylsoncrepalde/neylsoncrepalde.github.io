@@ -1,4 +1,7 @@
-img[alt=drawing] { width: 200px; }
+img[alt="minipic"] { 
+  max-width:  250px; 
+  display: block;
+}
 
 #aboutme-section {
   font-size: 19px;
