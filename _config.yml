@@ -23,7 +23,7 @@ description: Blog do Prof. Neylson Crepalde
 
 # Image to show in the navigation bar - image must be a square (width = height)
 # Remove this parameter if you don't want an image in the navbar
-avatar: "https://neylsoncrepalde.files.wordpress.com/2015/01/neylson-crepalde-1.jpg"
+avatar: "/img/Neylson.jpg"
 
 # List of links in the navigation bar
 navbar-links:
