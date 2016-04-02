@@ -3,7 +3,7 @@ layout: post
 title: Análise de Conteúdo (twitteR)
 author: Neylson Crepalde
 date: 2016, March, 18
-tags: R, Análise de Conteúdo, Twitter
+tags: [R, Análise de Conteúdo, Twitter]
 ---
 Olá pessoal. Recentemente publiquei em meus perfis no [Facebook](https://www.facebook.com/neylson.crepalde) e no [Twitter](https://twitter.com/NCrepalde) algumas análises dos *tweets* publicados com a hashtag **\#QuedaDoPlanalto** a qual esteve em primeiro lugar mundial e nacional durante o período conturbado da nomeação do ex-presidente Luíz Inácio Lula da Silva a Ministro da Casa Civil. Este assunto já está sendo amplamente divulgado e acredito ser absolutamente prescindível discutí-lo aqui. Me limitarei a apresentar os códigos usados para realizar a referida análise.
 
