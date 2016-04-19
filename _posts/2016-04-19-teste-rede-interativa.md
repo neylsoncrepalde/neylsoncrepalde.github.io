@@ -1,4 +1,5 @@
 ---
+layout: post
 title: teste
 author: Neylson Crepalde
 date: 2016, abril 19
