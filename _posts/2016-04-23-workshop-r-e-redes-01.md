@@ -119,7 +119,7 @@ A visualização *default* do igraph pode ser obtida por
 plot(rede)
 ```
 
-![](img/giars_r_oficina1_files/figure-markdown_github/unnamed-chunk-9-1.png)
+![](/img/giars_r_oficina1_files/figure-markdown_github/unnamed-chunk-9-1.png)
 
 Podemos ver que a visualização está bastante suja. Para melhorarmos seu aspecto, vamos retirar os *labels* dos vértices e diminuir seu tamanho para 5.
 
@@ -127,7 +127,7 @@ Podemos ver que a visualização está bastante suja. Para melhorarmos seu aspec
 plot(rede, vertex.label=NA, vertex.size=5)
 ```
 
-![](img/giars_r_oficina1_files/figure-markdown_github/unnamed-chunk-10-1.png)
+![](/img/giars_r_oficina1_files/figure-markdown_github/unnamed-chunk-10-1.png)
 
 Podemos selecionar alguns layouts para a rede como os famosos algoritmos Kamada-Kawai, Fruchterman-Reingold ou o modelo circular, por exemplo.
 
@@ -135,19 +135,19 @@ Podemos selecionar alguns layouts para a rede como os famosos algoritmos Kamada-
 plot(rede, vertex.label=NA, vertex.size=5, layout=layout_with_kk(rede), main="Kamada-Kawai")
 ```
 
-![](img/giars_r_oficina1_files/figure-markdown_github/unnamed-chunk-11-1.png)
+![](/img/giars_r_oficina1_files/figure-markdown_github/unnamed-chunk-11-1.png)
 
 ``` r
 plot(rede, vertex.label=NA, vertex.size=5, layout=layout_with_fr(rede), main="Fruchterman-Reingold")
 ```
 
-![](img/giars_r_oficina1_files/figure-markdown_github/unnamed-chunk-11-2.png)
+![](/img/giars_r_oficina1_files/figure-markdown_github/unnamed-chunk-11-2.png)
 
 ``` r
 plot(rede, vertex.label=NA, vertex.size=5, layout=layout_in_circle(rede), main="Circle")
 ```
 
-![](img/giars_r_oficina1_files/figure-markdown_github/unnamed-chunk-11-3.png)
+![](/img/giars_r_oficina1_files/figure-markdown_github/unnamed-chunk-11-3.png)
 
 Medidas Descritivas
 -------------------
@@ -184,7 +184,7 @@ grau <- degree(rede)
 hist(grau, col="green", main="Degree")
 ```
 
-![](giars_r_oficina1_files/figure-markdown_github/unnamed-chunk-14-1.png)
+![](/img/giars_r_oficina1_files/figure-markdown_github/unnamed-chunk-14-1.png)
 
 ``` r
 summary(grau)
@@ -223,7 +223,7 @@ plot(d[ind], dist.grau[ind], log="xy", pch=19,
      xlab=c("Log-Degree"), ylab=c("Log-Intensity"), main="Log-Log Degree Distribution")
 ```
 
-![](img/giars_r_oficina1_files/figure-markdown_github/unnamed-chunk-18-1.png)
+![](/img/giars_r_oficina1_files/figure-markdown_github/unnamed-chunk-18-1.png)
 
 Para medidas de centralidade, use
 
@@ -232,14 +232,14 @@ inter <- betweenness(rede, directed=F)
 hist(inter, col="lightblue", main="Betweeness")
 ```
 
-![](img/giars_r_oficina1_files/figure-markdown_github/unnamed-chunk-19-1.png)
+![](/img/giars_r_oficina1_files/figure-markdown_github/unnamed-chunk-19-1.png)
 
 ``` r
 close <- closeness(rede)
 hist(close, col="pink", main="Closeness")
 ```
 
-![](img/giars_r_oficina1_files/figure-markdown_github/unnamed-chunk-19-2.png)
+![](/img/giars_r_oficina1_files/figure-markdown_github/unnamed-chunk-19-2.png)
 
 Para medidas da rede como densidade, diâmetro, distância média e algumas outras (observe que colocamos o parâmetro *unconnected*=TRUE porque esse é o caso. Se sua rede é toda conectada, use *unconnected*=FALSE), use:
 
@@ -283,7 +283,7 @@ const <- constraint(rede)
 hist(const, col="red", main="Constraint")
 ```
 
-![](img/giars_r_oficina1_files/figure-markdown_github/unnamed-chunk-20-1.png)
+![](/img/giars_r_oficina1_files/figure-markdown_github/unnamed-chunk-20-1.png)
 
 Vamos plotar novamente com algumas medidas extraídas e com cores diferentes.
 
@@ -291,25 +291,25 @@ Vamos plotar novamente com algumas medidas extraídas e com cores diferentes.
 plot(rede, vertex.label=NA, vertex.color=2, vertex.size=grau/4, main="Size = degree")
 ```
 
-![](img/giars_r_oficina1_files/figure-markdown_github/unnamed-chunk-21-1.png)
+![](/img/giars_r_oficina1_files/figure-markdown_github/unnamed-chunk-21-1.png)
 
 ``` r
 plot(rede, vertex.label=NA, vertex.color=3, vertex.size=inter/60, main="Size = betweness centrality")
 ```
 
-![](img/giars_r_oficina1_files/figure-markdown_github/unnamed-chunk-21-2.png)
+![](/img/giars_r_oficina1_files/figure-markdown_github/unnamed-chunk-21-2.png)
 
 ``` r
 plot(rede, vertex.label=NA, vertex.color=4, vertex.size=close*5000, main="Size = closeness centrality")
 ```
 
-![](img/giars_r_oficina1_files/figure-markdown_github/unnamed-chunk-21-3.png)
+![](/img/giars_r_oficina1_files/figure-markdown_github/unnamed-chunk-21-3.png)
 
 ``` r
 plot(rede, vertex.label=NA, vertex.color=5, vertex.size=const*10, main="Size = constraint")
 ```
 
-![](img/giars_r_oficina1_files/figure-markdown_github/unnamed-chunk-21-4.png)
+![](/img/giars_r_oficina1_files/figure-markdown_github/unnamed-chunk-21-4.png)
 
 Para quem que não tem muita familiaridade com as medidas descritivas de redes, quero recomendar o livro dos professores [Lazega e Higgins](http://www.finotracoeditora.com.br/livros/L12823/9788580542042/redes-sociais-e-estruturas-relacionais.html) que está disponível tanto no site da editora Fino Traço quanto na Amazon. Além das medidas descritivas, o livro aborda a concepção de um estudo relacional e, em seu capítulo final, apresenta os últimos avanços em modelos estatísticos em redes.
 
