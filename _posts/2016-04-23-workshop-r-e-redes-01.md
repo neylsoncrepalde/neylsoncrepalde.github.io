@@ -19,7 +19,7 @@ Por que usar o R?
 
 Se já existem dois bons softwares para ARS e o [PNET](http://www.swinburne.edu.au/fbl/research/transformative-innovation/our-research/MelNet-social-network-group/PNet-software/index.html) para estimar modelos p\*, porque gostaríamos de trabalhar com R? Em primeiro lugar, o R é uma linguagem de código aberto. Apesar de não haver nenhuma garantia, a comunidade de usuários é gigantesca e qualquer dúvida postada nos fóruns de discussão dificilmente leva mais do que alguns minutos para obter uma resposta. Segundo, o R é uma ferramenta que integra todas as funcionalidades dos outros softwares, ou seja, ele gera visualizações, medidas descritivas, modelos estatísticos e (o que os outros não fazem) realiza mineração de dados. É possível desenvolver um projeto de pesquisa inteiro dentro do R sem ter que recorrer a outras ferramentas. Além disso, o R é compativel com qualquer sistema (Linux, Mac ou Windows). Infelizmente o Pajek e o Ucinet só funcionam em Windows.
 
-Para trabalhar com dados em rede no R, usaremos basicamente dois pacotes: o pacote **igraph** e o pacote **netowrk**. Concentraremos nossos esforços no início em entender bem o pacote **igraph**.
+Para trabalhar com dados em rede no R, usaremos basicamente dois pacotes: o pacote **igraph** e o pacote **network**. Concentraremos nossos esforços no início em entender bem o pacote **igraph**.
 
 igraph
 ------
