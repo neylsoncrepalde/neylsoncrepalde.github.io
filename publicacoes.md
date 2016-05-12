@@ -18,7 +18,7 @@ author: Neylson Crepalde
 
 
 
- ![artigo](/img/lapis.png) **Um estudo sobre a extensão e a tessitura vocal de mulheres entre 20 e 45 anos que atuam no naipe contralto de corais amadores em Belo Horizonte (no prelo)**
+ ![artigo](/img/lapis.png) [**Um estudo sobre a extensão e a tessitura vocal de mulheres entre 20 e 45 anos que atuam no naipe contralto de corais amadores em Belo Horizonte (2016)**](http://bit.ly/1qgQpFN)
 
 **Abstract**: This article maps the vocal range of singers between 20 and 45 years working in the suit alto in amateur choirs in Belo Horizonte and compares the data with the vocal range of alto singers according to the literature, paying attention to the possibility of choristers with vocal range nonstandard attributed to its suit. The work has an exploratory character and it develops from a quali-quantitative methodology. Through data analysis it was found that 43% of choristers who participated in this study have a comfortable area of their voices outside the vocal range of alto. As a solution to this problem, was proposed the relocation of these singers the other suits in the choir.
 
