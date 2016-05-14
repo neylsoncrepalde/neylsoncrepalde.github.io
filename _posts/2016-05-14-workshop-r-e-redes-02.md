@@ -4,6 +4,7 @@ title: Workshop R e Redes - 02
 subtitle: Neylson Crepalde - GIARS
 author: Neylson Crepalde
 date: 2016, may 14
+tags: [Social Network Analysis, 2-mode networks, bipartite networks, 3D Visualization]
 ---
 
 Importando dados do UCINET
