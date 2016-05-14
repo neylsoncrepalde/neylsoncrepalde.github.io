@@ -117,7 +117,7 @@ Aqui está um exemplo
 
 ![](/img/giars_r_oficina2_files/figure-markdown_github/rede3d-1.png)
 
-Outra opção interessante é trabalhar com o pacote **networkD3** Para isso, faça
+Outra opção interessante é trabalhar com o pacote **networkD3**. Para isso, faça
 
 ``` r
 library(networkD3)
@@ -125,7 +125,8 @@ krack3d <- igraph_to_networkD3(krack_advice)
 simpleNetwork(krack3d$links, Source="source", Target="target", fontSize = 10)
 ```
 
-Para um exemplo de gráfico em 3D com o pacote **networkD3** com a rede de advogados de Lazega, [acesse aqui](http://neylsoncrepalde.github.io/img/viz3d.html).
+Para um exemplo de gráfico em 3D com o pacote **networkD3** com a rede de advogados de Lazega, [acesse aqui](http://neylsoncrepalde.github.io/img/viz3d.html). Aproveito para agradecer à querida [Bruna Wunderwald](https://www.facebook.com/bruna.wundervald) pela dica deste pacote. Valeu, Bruna!
+
 
 Redes 2-mode
 ------------
