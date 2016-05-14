@@ -134,7 +134,7 @@ Redes 2-mode
 Para trabalhar com redes 2-mode no R é preciso saber que o pacote **igraph** "entende" uma rede de 2 modos quando ela tem um atributo chamado **type** com valores lógicos **TRUE** e **FALSE**. Para usarmos um exemplo, vamos importar a rede de membros da *Academy of Management* (AOM Membership). O procedimento no UCINET já está descrito acima. Para importar, faça
 
 ``` r
-aom <- read.csv2("C:/Users/Neylson/Documents/UCINET data/AOM division membership.txt", header = T, stringsAsFactors = F)
+aom <- read.csv2("C:/Users/.../UCINET data/AOM division membership.txt", header = T, stringsAsFactors = F)
 aom <- as.matrix(aom)
 ```
 
