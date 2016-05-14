@@ -40,7 +40,7 @@ plot(krack_friendship, vertex.label.cex=.8, vertex.label.color="black", vertex.c
 plot(krack_reports_to, vertex.label.cex=.8, vertex.label.color="black", vertex.color="yellow", edge.arrow.size=0.2, main="Krackhardt REPORTS TO")
 ```
 
-![](img/giars_r_oficina2_files/figure-markdown_github/unnamed-chunk-5-1.png)
+![](/img/giars_r_oficina2_files/figure-markdown_github/unnamed-chunk-5-1.png)
 
 Para importar os atributos presentes no arquivo *High-Tec-Attributes*, faça o mesmo processo para exportar os dados para uma *Raw Matrix* no UCINET e no R faça
 
@@ -96,7 +96,7 @@ A partir dessas coordenadas, podemos ainda gerar outro gráfico pelo método con
 plot(krack_advice, vertex.label.cex=.8, vertex.label.color="black", vertex.color="red", edge.arrow.size=0.2, layout=coordenadas, main="Krackhardt ADVICE")
 ```
 
-![](img/giars_r_oficina2_files/figure-markdown_github/unnamed-chunk-11-1.png)
+![](/img/giars_r_oficina2_files/figure-markdown_github/unnamed-chunk-11-1.png)
 
 Visualizações em 3D
 -------------------
@@ -115,7 +115,7 @@ snapshot3d("rede3d.png", "png", top=F)
 
 Aqui está um exemplo
 
-![](img/giars_r_oficina2_files/figure-markdown_github/rede3d-1.png)
+![](/img/giars_r_oficina2_files/figure-markdown_github/rede3d-1.png)
 
 Outra opção interessante é trabalhar com o pacote **networkD3** Para isso, faça
 
@@ -179,4 +179,6 @@ is.bipartite(parlamentares)
 plot(parlamentares, vertex.label=NA, vertex.size=3, vertex.color=as.numeric(V(parlamentares)$type)+3, main="Rede de afiliações de \nParlamentares a comissões")
 ```
 
-![](img/giars_r_oficina2_files/figure-markdown_github/unnamed-chunk-19-1.png)
+![](/img/giars_r_oficina2_files/figure-markdown_github/unnamed-chunk-19-1.png)
+
+Sintam-se à vontade para comentar. Um abraço a todos.
