@@ -71,7 +71,7 @@ krack_advice
     ## [49] X5->X19 X5->X20 X5->X21 X6->X21 X7->X2  X7->X6  X7->X11 X7->X12
     ## + ... omitted several edges
 
-Na oficina 1 já mostramos como podemos usar os atributos para plotar as redes. Recomendo que experimentemos várias combinações de acordo com o que pretendemos investigar.
+No post 01 já mostramos como podemos usar os atributos para plotar as redes. Recomendo que experimentemos várias combinações de acordo com o que pretendemos investigar.
 
 Visualizações interativas com **tkplot**
 ----------------------------------------
