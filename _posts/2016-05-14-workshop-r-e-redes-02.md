@@ -84,7 +84,7 @@ tkplot(krack_advice, vertex.label.cex=.8, vertex.label.color="black", vertex.col
 
     ## [1] 1
 
-Essa visualização nos permite editar de forma interativa alguns elementos do grafo (excetuando-se tamanho e cor dos vértices e laços que devem ser preestabelecidos). Se conseguirmos obter um resultado visual satisfatório e elegante, é bom que façamos a extração das coordenadas para exportamos para outros softwares, caso seja necessário. Para isso, usamos o comando **tk\_coords()** com o primeiro parâmetro sendo o \*\*id\* do grafo gerado no output do comando anterior.
+Essa visualização nos permite editar de forma interativa alguns elementos do grafo (excetuando-se tamanho e cor dos vértices e laços que devem ser preestabelecidos). Se conseguirmos obter um resultado visual satisfatório e elegante, é bom que façamos a extração das coordenadas para exportamos para outros softwares, caso seja necessário. Para isso, usamos o comando **tk\_coords()** com o primeiro parâmetro sendo o **id** do grafo gerado no output do comando anterior.
 
 ``` r
 coordenadas <- tk_coords(1, norm=T)
