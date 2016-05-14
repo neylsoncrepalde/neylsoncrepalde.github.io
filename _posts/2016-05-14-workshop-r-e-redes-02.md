@@ -154,7 +154,7 @@ summary(V(aom)$type)
     ##    Mode   FALSE    TRUE    NA's 
     ## logical    3324      23       0
 
-Quando temos uma *edge list*, formato muito comum de dados relacionais, o procedimento requer alguns detalhes a mais. Depois de abrir a *edge list* e transformá-la num objeto **igraph**, fazemos um mapeamento dos vértices que pertencem a cada modo para gerar o grafo 2-mode.
+Quando temos uma *edge list*, formato muito comum de dados relacionais, o procedimento requer alguns detalhes a mais. Depois de abrir a *edge list* e transformá-la num objeto **igraph**, fazemos um mapeamento dos vértices que pertencem a cada modo para gerar o grafo 2-mode. Depois, salvamos o mapeamento para cada vértice em um objeto (que é uma lista) e atribuímo-lo a um novo atributo criado com o nome **type**. Para realizar esta tarefa, usarei uma rede de parlamentares em comissões coletada usando o pacote **bRasilLegis**. O código para baixar esses dados está [neste outro post](http://neylsoncrepalde.github.io/2016-04-01-Rede-de-Parlamentares-usando-o-pacote-bRasilLegis/).
 
 ``` r
 parlamentares <- read.csv2("C:/Users/.../orgaos.csv", stringsAsFactors = F)
