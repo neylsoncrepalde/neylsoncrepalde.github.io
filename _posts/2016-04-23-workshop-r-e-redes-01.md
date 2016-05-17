@@ -4,6 +4,7 @@ title: Workshop R e Redes - 01
 subtitle: Neylson Crepalde - GIARS
 author: Neylson Crepalde
 date: 2016, April 23
+css: justify.css
 tags: [R,Social Network Analysis, Pajek, Ucinet]
 ---
 
