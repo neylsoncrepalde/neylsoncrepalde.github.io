@@ -5,6 +5,7 @@ author: Neylson Crepalde
 ---
 
 ![artigo](/img/lapis.png) **O Consumo de Música e o Rádio (no prelo)**
+
 **Resumo**: O presente artigo traz a análise de pesquisa quantitativa que investiga a presença do rádio no consumo de músicas de um modo geral, bem como sua força atual como veículo de difusão de novos artistas e o seu potencial junto a um público interessado em música. Os dados da pesquisa confirmam as literaturas revisadas ao constatar que as mídias sociais – internet – vêm se desenvolvendo como principal veículo de comunicação. Em seguida, bem próximo, aparece o rádio como o segundo mais bem citado pelos entrevistados. Carvalho (2006) informa que até a consolidação da internet, em meados dos anos 90, as emissoras de radiodifusão foram os principais meios de divulgação e difusão da música no Brasil.
 
 ![artigo](/img/lapis.png) **O desempenho dos alunos dos cursos de Música no Enade 2014 (no prelo)**
