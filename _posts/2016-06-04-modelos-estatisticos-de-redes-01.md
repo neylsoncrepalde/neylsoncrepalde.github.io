@@ -98,7 +98,7 @@ plot(marriage, vertex.label.cex=0.9,
 
 ![](/img/giars_r_oficina3_git_files/figure-markdown_github/unnamed-chunk-9-1.png)
 
-Agora vamos à modelagem. Primeiro, é comum estimarmos o *modelo nulo*[4], ou seja, um modelo apenas com o parâmetro **edges** que corresponde ao intercepto dos modelos econométricos comuns. Este modelo toma a díade por unidade de análise e estima a "propensão dos atores a escolherem outros atores, serem escolhidos por outros, a fazer escolhas recíprocas e a tendência média (parâmetro de densidade) a interagir com os outros (Lazega & Higgins, 2014, p. 81[5]).
+Agora vamos à modelagem. Primeiro, é comum estimarmos o *modelo nulo*[4], ou seja, um modelo apenas com o parâmetro **edges** que corresponde ao intercepto dos modelos econométricos comuns. Este modelo toma a díade por unidade de análise e estima a "propensão dos atores a escolherem outros atores, serem escolhidos por outros, a fazer escolhas recíprocas e a tendência média (parâmetro de densidade) a interagir com os outros (Lazega & Higgins, 2014, p. 81)[5].
 
 ``` r
 fit1 <- ergm(flomarriage~edges)
