@@ -510,7 +510,7 @@ gwesp.fixed.1
 <td style="padding-right: 12px; border: none;">
 0.88 (0.25)<sup style="vertical-align: 0px;">***</sup>
 </td>
-</tr>/
+</tr>
 <tr>
 <td style="padding-right: 12px; border: none;">
 gwdegree
