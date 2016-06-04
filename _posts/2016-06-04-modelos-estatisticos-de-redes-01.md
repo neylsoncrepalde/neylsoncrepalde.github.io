@@ -255,7 +255,7 @@ Agora, como outro exemplo, vamos trabalhar com os dados dos advogados de Lazega.
 ERGM - Lazega's lawyers
 -----------------------
 
-<span class="newthought">Estes dados</span> estão no pacote **sand**. Precisamos transformá-los num objeto de classe network para realizar a estimação do p\*.
+Estes dados estão no pacote **sand**. Precisamos transformá-los num objeto de classe network para realizar a estimação do p\*.
 
 ``` r
 lazega <- upgrade_graph(lazega)
@@ -290,7 +290,7 @@ summary(fit1)
     ##  
     ## AIC: 600.8    BIC: 605.2    (Smaller is better.)
 
-Depois de estimar o modelo \(P_1\), vamos estimar um modelo com triângulos e distribuição de laços compartilhados.
+Depois de estimar o modelo P1, vamos estimar um modelo com triângulos e distribuição de laços compartilhados.
 
 ``` r
 model2 <- formula(lawyers~edges+triangle+
@@ -417,7 +417,7 @@ Quando trabalhamos com modelos p\*, as possibilidades são enormes. Devemos test
 Algoritmos
 ----------
 
-<span class="newthought">O algoritmo default</span> pelo qual o pacote statnet realiza a estimação dos modelos p\* é o **Geyer-Thompson (1992)** (MCMLE)[9]. Este algoritmo costuma retornar os melhores resultados mas, por ser extremamente exigente (os modelos devem convergir 2 vezes, do contrário, o comando dá erro e para) pode não rodar para algumas redes mais extensas. O pacote **statnet** permite o uso de mais três algoritmos além do MCMLE: o algoritmo **Robbins-Monro** (usado pela família de softwares PNET), **Metropolis-Hastings** (aproximação estocástica) e **Stepping**. Vamos realizar a estimação do modelo 3 para os dados de Lazega com os outros 3 algoritmos e vamos compará-los.
+O algoritmo default pelo qual o pacote statnet realiza a estimação dos modelos p\* é o **Geyer-Thompson (1992)** (MCMLE)[9]. Este algoritmo costuma retornar os melhores resultados mas, por ser extremamente exigente (os modelos devem convergir 2 vezes, do contrário, o comando dá erro e para) pode não rodar para algumas redes mais extensas. O pacote **statnet** permite o uso de mais três algoritmos além do MCMLE: o algoritmo **Robbins-Monro** (usado pela família de softwares PNET), **Metropolis-Hastings** (aproximação estocástica) e **Stepping**. Vamos realizar a estimação do modelo 3 para os dados de Lazega com os outros 3 algoritmos e vamos compará-los.
 
 ``` r
 fit3.rb <- ergm(model3, 
@@ -700,7 +700,7 @@ plot(gof3.step,
 É importante lembrar que...
 ---------------------------
 
-<span class="newthought">A estimação de um modelo p\* pode ser um processo longo e cansativo</span>. Não há testes ou métodos para escolha prévia de um modelo a não ser o bom e velho "tentativa e erro". A partir do seu problema de pesquisa, escolha os parâmetros que deseja estimar e vá melhorando o modelo escolhendo outros parâmetros. Muita atenção: o modelo deve convergir e os parâmetros estimados devem estar dentro dos limites dos plots de **Goodness-of-fit**. O algoritmo Geyer-Thompson tem a vantagem (ou não) de não rodar quando o modelo não converge. Os outros algoritmos rodam de qualquer modo e checamos se o modelo está degenerado pelo GOF. É importantíssimo salientar que **o modelo deve convergir completamente**. Um modelo que não converge em algum de seus parâmetros não quer dizer absolutamente nada (Lusher, Koskinem & Robins, 2012)[10].
+A estimação de um modelo p\* pode ser um processo longo e cansativo. Não há testes ou métodos para escolha prévia de um modelo a não ser o bom e velho "tentativa e erro". A partir do seu problema de pesquisa, escolha os parâmetros que deseja estimar e vá melhorando o modelo escolhendo outros parâmetros. Muita atenção: o modelo deve convergir e os parâmetros estimados devem estar dentro dos limites dos plots de **Goodness-of-fit**. O algoritmo Geyer-Thompson tem a vantagem (ou não) de não rodar quando o modelo não converge. Os outros algoritmos rodam de qualquer modo e checamos se o modelo está degenerado pelo GOF. É importantíssimo salientar que **o modelo deve convergir completamente**. Um modelo que não converge em algum de seus parâmetros não quer dizer absolutamente nada (Lusher, Koskinem & Robins, 2012)[10].
 
 [1] Granovetter, M. S. (1973). The strength of weak ties. **American journal of sociology**, 1360-1380.
 
@@ -708,7 +708,7 @@ plot(gof3.step,
 
 [3] Padgett, John F. (1994) **Marriage and Elite Structure in Renaissance Florence**, 1282-1500. Paper delivered to the Social Science History Association.
 
-[4] Este modelo é também conhecido como \(P_1\) e foi desenvolvido por Holland e Leinhardt.
+[4] Este modelo é também conhecido como **P1** e foi desenvolvido por Holland e Leinhardt.
 
 [5] Lazega, E., & Higgins, S. S. (2014). **Redes sociais e estruturas relacionais**. Belo Horizonte, MG: Fino Traço.
 
