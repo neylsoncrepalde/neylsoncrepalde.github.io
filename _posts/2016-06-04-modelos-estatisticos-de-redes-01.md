@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Modelos estatísticos de Redes
+title: Modelos Estatísticos de Redes - 01
 author: Neylson Crepalde
 date: 2016, June 4
 tags: [Social Networks Statistics, Exponential Random Graph Models, P*]
