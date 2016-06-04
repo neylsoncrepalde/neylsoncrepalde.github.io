@@ -13,13 +13,8 @@ Para ver uma versão deste post organizado num belo e eficiente layout chamado *
 Os modelos p\* foram desenvolvidos para dar conta de dados que assumem interdependência das observações. Ora, os modelos econométricos clássicos (regressão linear, regressão logística, etc.) assumem independência das observações e portanto não devem ser aplicados a dados relacionais. Em outras palavras, se A conhece C, a existência de um laço entre B e C altera a probabilidade de existência de um laço entre B e A[1].
 
 
-<p class="caption", align=center>
-<strong>
-Granovetter's impossible triad
-</strong>
-</p>
-<img src="/img/giars_r_oficina3_git_files/figure-markdown_github/unnamed-chunk-2-1.png" alt="Granovetter's impossible triad"  />
 
+![](/img/giars_r_oficina3_git_files/figure-markdown_github/unnamed-chunk-2-1.png)
 
 O modelo p\* pode ser definido por
 
@@ -504,18 +499,18 @@ triangle
 gwesp.fixed.1
 </td>
 <td style="padding-right: 12px; border: none;">
-0.94 (0.28)<sup style="vertical-align: 0px;">\*\*\*</sup>
+0.94 (0.28)<sup style="vertical-align: 0px;">***</sup>
 </td>
 <td style="padding-right: 12px; border: none;">
 0.69
 </td>
 <td style="padding-right: 12px; border: none;">
-0.79 (0.31)<sup style="vertical-align: 0px;">\*</sup>
+0.79 (0.31)<sup style="vertical-align: 0px;">*</sup>
 </td>
 <td style="padding-right: 12px; border: none;">
-0.88 (0.25)<sup style="vertical-align: 0px;">\*\*\*</sup>
+0.88 (0.25)<sup style="vertical-align: 0px;">***</sup>
 </td>
-</tr>
+</tr>/
 <tr>
 <td style="padding-right: 12px; border: none;">
 gwdegree
@@ -555,16 +550,16 @@ nodematch.Gender
 nodematch.Office
 </td>
 <td style="padding-right: 12px; border: none;">
-0.99 (0.18)<sup style="vertical-align: 0px;">\*\*\*</sup>
+0.99 (0.18)<sup style="vertical-align: 0px;">***</sup>
 </td>
 <td style="padding-right: 12px; border: none;">
 1.33
 </td>
 <td style="padding-right: 12px; border: none;">
-0.70 (0.21)<sup style="vertical-align: 0px;">\*\*</sup>
+0.70 (0.21)<sup style="vertical-align: 0px;">**</sup>
 </td>
 <td style="padding-right: 12px; border: none;">
-0.97 (0.19)<sup style="vertical-align: 0px;">\*\*\*</sup>
+0.97 (0.19)<sup style="vertical-align: 0px;">***</sup>
 </td>
 </tr>
 <tr>
@@ -589,16 +584,16 @@ nodematch.School
 nodecov.Age
 </td>
 <td style="padding-right: 12px; border: none;">
--0.05 (0.02)<sup style="vertical-align: 0px;">\*\*</sup>
+-0.05 (0.02)<sup style="vertical-align: 0px;">**</sup>
 </td>
 <td style="padding-right: 12px; border: none;">
 -0.05
 </td>
 <td style="padding-right: 12px; border: none;">
--0.04 (0.02)<sup style="vertical-align: 0px;">\*</sup>
+-0.04 (0.02)<sup style="vertical-align: 0px;">*</sup>
 </td>
 <td style="padding-right: 12px; border: none;">
--0.05 (0.02)<sup style="vertical-align: 0px;">\*\*</sup>
+-0.05 (0.02)<sup style="vertical-align: 0px;">**</sup>
 </td>
 </tr>
 <tr>
@@ -671,7 +666,7 @@ Log Likelihood
 </tr>
 <tr>
 <td style="padding-right: 12px; border: none;" colspan="6">
-<span style="font-size:0.8em"><sup style="vertical-align: 0px;">***</sup>p \< 0.001, <sup style="vertical-align: 0px;">**</sup>p \< 0.01, <sup style="vertical-align: 0px;">*</sup>p \< 0.05</span>
+<span style="font-size:0.8em"><sup style="vertical-align: 0px;">***</sup>p < 0.001, <sup style="vertical-align: 0px;">**</sup>p < 0.01, <sup style="vertical-align: 0px;">*</sup>p < 0.05</span>
 </td>
 </tr>
 </table>
