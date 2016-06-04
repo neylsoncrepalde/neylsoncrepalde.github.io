@@ -18,9 +18,9 @@ Os modelos p\* foram desenvolvidos para dar conta de dados que assumem interdepe
 
 O modelo p\* pode ser definido por
 
-$$Pr(Y=y) \quad = \quad \left(\frac{1}{k}\right) exp \left\{ \sum_{A} \eta_A g_A (\textbf{y}) \right\}$$
+![](/img/giars_r_oficina3_git_files/figure-markdown_github/formula.PNG)
 
-onde Y é o grafo teórico simulado, y é o grafo observado, \(\sum_{A}\) é a soma de todas as configurações *A*, \(\eta_A\) é o parâmetro estimado correpondente à configuração *A*, \(g_A (\textbf{y})\) é a estatística da configuração *A* observada no grafo **y** e **k** é uma constante que assegura a distribuição de probabilidades[2].
+onde Y é o grafo teórico simulado, y é o grafo observado, Σ*A* é a soma de todas as configurações *A*, η*A* é o parâmetro estimado correpondente à configuração *A*, gA(**y**) é a estatística da configuração *A* observada no grafo **y** e **k** é uma constante que assegura a distribuição de probabilidades[2].
 
 Para estimar um modelo p\* no R, usaremos os comandos da suite **statnet** e o pacote **igraph** para auxílio com a importação dos dados quando for o caso. Vamos ao primeiro exemplo.
 
