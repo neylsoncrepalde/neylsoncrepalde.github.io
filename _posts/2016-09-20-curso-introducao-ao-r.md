@@ -12,4 +12,4 @@ Neste blog, nos próximos dias, será postado todo o material desenvolvido para 
 
 Abraços a todos.
 
-![Intro ao R]()
+![Intro ao R](/img/intro_R.png)
