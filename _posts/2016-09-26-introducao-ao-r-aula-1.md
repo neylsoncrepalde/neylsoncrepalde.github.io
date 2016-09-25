@@ -1,6 +1,6 @@
 ---
 layout: post
-title: INTRODUÇÃO AO R -- Aula 1
+title: INTRODUÇÃO AO R - Aula 1
 author: Neylson Crepalde
 date: 2016, September 26
 tags: [R programming, rstats]
