@@ -169,8 +169,7 @@ quantile(iris$Sepal.Length, probs =c(0,.1,.2,.3,.4,.5,.6,.7,.8,.9,1)) # Decis
     ##   0%  10%  20%  30%  40%  50%  60%  70%  80%  90% 100% 
     ## 4.30 4.80 5.00 5.27 5.60 5.80 6.10 6.30 6.52 6.90 7.90
 
-Algumas estatísticas comuns
----------------------------
+## Algumas estatísticas comuns
 
 Vamos investigar algumas relações entre essas variáveis. Primeiro, vamos tirar uma matriz de correlações.
 
@@ -210,7 +209,7 @@ cor.test(iris$Sepal.Length, iris$Petal.Length) # Correlação com teste estatís
 plot(iris$Sepal.Length, iris$Petal.Length) # produz um scatterplot
 ```
 
-![](intro_r_aula2_files/figure-markdown_github/unnamed-chunk-6-1.png)
+![](/img/intro_r_aula2a_files/figure-markdown_github/unnamed-chunk-6-1.png)
 
 Podemos fazer algumas seleções (*subsettings*) em nossos dados caso queiramos investigar um grupo específico. Neste caso, vamos olhar para algumas estatísticas das flores pertencentes apenas ao grupo `virginica`.
 
@@ -283,7 +282,7 @@ t.test(dados$Petal.Length~dados$Species)
 boxplot(dados$Petal.Length~dados$Species)
 ```
 
-![](intro_r_aula2_files/figure-markdown_github/unnamed-chunk-8-1.png)
+![](/img/intro_r_aula2a_files/figure-markdown_github/unnamed-chunk-8-1.png)
 
 Neste caso, os grupos tem médias estatisticamente diferentes.
 
@@ -325,7 +324,7 @@ library(descr)
 freq(sexo)
 ```
 
-![](intro_r_aula2_files/figure-markdown_github/unnamed-chunk-12-1.png)
+![](/img/intro_r_aula2a_files/figure-markdown_github/unnamed-chunk-12-1.png)
 
     ## sexo 
     ##           Frequência Percentual
@@ -339,7 +338,7 @@ Vamos usar essa mesma função para analisar a variável Species do banco `iris`
 freq(iris$Species)
 ```
 
-![](intro_r_aula2_files/figure-markdown_github/unnamed-chunk-13-1.png)
+![](/img/intro_r_aula2a_files/figure-markdown_github/unnamed-chunk-13-1.png)
 
     ## iris$Species 
     ##            Frequência Percentual
@@ -350,8 +349,7 @@ freq(iris$Species)
 
 Guarde esse comando. Ele é bastante útil.
 
-Gráficos
---------
+## Gráficos
 
 Visualização de dados não é algo trivial e há vários estudos interessantes sobre o assunto. Apresentarei aqui apenas algumas dicas básicas.
 
@@ -361,7 +359,7 @@ Para visualizar a distribuição de uma variável, usamos um histograma.
 hist(iris$Petal.Length)
 ```
 
-![](intro_r_aula2_files/figure-markdown_github/unnamed-chunk-14-1.png)
+![](/img/intro_r_aula2a_files/figure-markdown_github/unnamed-chunk-14-1.png)
 
 Podemos adicionar um *label* para o eixo x, para o eixo y, um título mais bonito e uma cor no gráfico para que ele fique um pouco mais simpático:
 
@@ -369,7 +367,7 @@ Podemos adicionar um *label* para o eixo x, para o eixo y, um título mais bonit
 hist(iris$Petal.Length, xlab = "Comprimento da Pétala", ylab="Frequência" ,main="Histograma do Comprimento da Pétala", col="green")
 ```
 
-![](intro_r_aula2_files/figure-markdown_github/unnamed-chunk-15-1.png)
+![](/img/intro_r_aula2a_files/figure-markdown_github/unnamed-chunk-15-1.png)
 
 Para visualizar duas variáveis numéricas, podemos usar um *scatterplot* como fizemos acima.
 
@@ -377,7 +375,7 @@ Para visualizar duas variáveis numéricas, podemos usar um *scatterplot* como f
 plot(iris$Petal.Length, iris$Sepal.Length)
 ```
 
-![](intro_r_aula2_files/figure-markdown_github/unnamed-chunk-16-1.png)
+![](/img/intro_r_aula2a_files/figure-markdown_github/unnamed-chunk-16-1.png)
 
 Para visualizar diferenças de variáveis numéricas entre grupos, podemos usar *boxplots*.
 
@@ -385,7 +383,7 @@ Para visualizar diferenças de variáveis numéricas entre grupos, podemos usar 
 boxplot(iris$Petal.Length~iris$Species)
 ```
 
-![](intro_r_aula2_files/figure-markdown_github/unnamed-chunk-17-1.png)
+![](/img/intro_r_aula2a_files/figure-markdown_github/unnamed-chunk-17-1.png)
 
 Podemos ainda plotar as frequências de uma variável categórica:
 
@@ -393,6 +391,6 @@ Podemos ainda plotar as frequências de uma variável categórica:
 barplot(table(iris$Species))
 ```
 
-![](intro_r_aula2_files/figure-markdown_github/unnamed-chunk-18-1.png)
+![](/img/intro_r_aula2a_files/figure-markdown_github/unnamed-chunk-18-1.png)
 
 Veja que o comando `freq()` que utilizamos mais cedo já produz esse gráfico por *default*.
