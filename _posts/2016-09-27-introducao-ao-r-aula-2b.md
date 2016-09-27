@@ -34,7 +34,7 @@ system.time(dados <- read.csv2("enade_2014_amostra.csv", stringsAsFactors = F, h
 ```
 
     ##    user  system elapsed 
-    ##   0.316   0.004   0.319
+    ##   0.548   0.000   0.544
 
 ``` r
 library(readr)
@@ -42,7 +42,7 @@ system.time(dados <- read_csv2("enade_2014_amostra.csv", col_names = T))
 ```
 
     ##    user  system elapsed 
-    ##   0.124   0.012   0.238
+    ##   0.128   0.000   0.128
 
 Veja como a função `read_csv2()` é mais de 3 vezes mais rápida do que a função base!!! O Wickham tem ainda vários outros pacotes desenvolvidos para manipulação de dados string, manipulação de bancos de dados, transformação de variáveis, dentre outros. Esses pacotes podem tornar a nossa vida bem mais fácil! Veja uma apresentação sobre o **hadleyverse**, universo de Hadley em <http://barryrowlingson.github.io/hadleyverse>.
 
