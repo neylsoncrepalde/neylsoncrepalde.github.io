@@ -27,7 +27,7 @@ help("read.csv")
 
 ## Importando dados com o pacote **readr**
 
-Um dos maiores desenvolvedores para linguagem R, Hadley Wickham, desenvolveu um pacote muito eficiente para leitura de bancos de dados chamado `readr`. Como sabemos que trata-se de um arquivo .csv separado por ponto-e-vírgula, devemos usar a versão `read_csv2`. Vamos experimentá-lo comparando seu desempenho com o comando da base do R:
+Um dos maiores desenvolvedores para linguagem R, Hadley Wickham, desenvolveu um pacote muito eficiente para leitura de bancos de dados chamado `readr`. Como sabemos que trata-se de um arquivo .csv separado por ponto-e-vírgula, devemos usar o comando `read_csv2`. Vamos experimentá-lo comparando seu desempenho com o comando da base do R:
 
 ``` r
 system.time(dados <- read.csv2("enade_2014_amostra.csv", stringsAsFactors = F, header = T))
