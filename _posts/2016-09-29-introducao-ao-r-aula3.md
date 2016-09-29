@@ -47,9 +47,9 @@ for (i in 1:10){
 
 No comando acima, o "contador" e a expressao i e o "conjunto de valores" e o vetor numerico c(1,2,3,4,5,6,7,8,9,10). O numero de elementos do conjunto de valores determina quantas vezes as tarefas serao repetidas Nesse caso, esse vetor tem 10 elementos. Entao, o loop sera executado 10 vezes.
 
-Na primeira iteracao, i assume o valor do primeiro elemento do conjunto. No caso, "1". E entao executamos uma funcao: print(i^2). Com isso, o resultado de 1^2 sera apresentado na tela. Na segunda iteracao, i assume o valor do segundo elemento; no caso, 2... e assim por diante.
+Na primeira iteracao, i assume o valor do primeiro elemento do conjunto. No caso, "1". E entao executamos uma funcao: print(i). Com isso, o valor de i sera apresentado na tela. Na segunda iteracao, i assume o valor do segundo elemento; no caso, 2... e assim por diante.
 
-Podemos fazer o mesmo modificando a saída.
+Podemos fazer o mesmo modificando a saída para `i^2`.
 
 ``` r
 for (numero in 1:10){
