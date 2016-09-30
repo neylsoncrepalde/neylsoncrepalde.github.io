@@ -228,11 +228,11 @@ freq(enade[,101], plot=F) # verificando as categorias da variável 101
     ## Total      10000     100.00 100.0000
 
 ``` r
-library(car)
+library(plyr)
 
 for (i in 101:142){
   print(i)
-  enade[,i] <- recode(enade[,i], "c(7,8)=NA")
+  enade[,i] <- mapvalues(enade[,i], from=c(7,8), to=c(NA,NA))
 }
 ```
 
