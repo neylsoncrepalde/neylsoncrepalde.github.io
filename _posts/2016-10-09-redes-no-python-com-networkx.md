@@ -262,7 +262,7 @@ Agora, vamos investigar a assortatividade do componente principal. A assortativi
 
 ![](/img/redes_no_python/formula_rho.png)
 
-onde ejk é o excesso conjunto da probabilidade dos graus de j e de k, q é a distribuição normalizada do grau excedente de um nó aleatório e o denominador \sigma q ao quadrado é a variância de q. Vamos ao escore:
+onde ejk é o excesso conjunto da probabilidade dos graus de j e de k, q é a distribuição normalizada do grau excedente de um nó aleatório e o denominador sigma q ao quadrado é a variância de q. Vamos ao escore:
 
 
 ```python
