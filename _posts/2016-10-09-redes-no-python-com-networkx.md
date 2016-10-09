@@ -3,7 +3,7 @@ layout: post
 title: Redes no Python com networkx
 author: Neylson Crepalde
 date: 2016, October 9
-tags: [Python 3.5, rstats]
+tags: [Python 3.5, Redes, Social Network Analysis]
 ---
 
 # Redes no Python com networkx
