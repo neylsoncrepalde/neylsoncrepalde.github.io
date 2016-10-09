@@ -28,7 +28,7 @@ Caso não possua, você pode trabalhar com os dados embutidos no módulo da rede
 Para isso, use o comando:
 G = nx.florentine_families_graph()
 '''
-G = nx.read_pajek('/home/neylson/Documentos/Neylson Crepalde/Pajek/rede_neylson.net')
+G = nx.read_pajek('/home/neylson/Documentos/rede_neylson.net')
 G = nx.Graph(G) # Transformando num grafo ao invés de um Multi-grafo
 
 # Plotando a rede
