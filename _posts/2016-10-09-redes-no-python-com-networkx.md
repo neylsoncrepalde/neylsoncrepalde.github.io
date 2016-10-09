@@ -12,7 +12,7 @@ Após um encontro marcante com o prof. [Davoud Taghawi-Nejad](https://www.facebo
 
 As principais justificativas mobilizadas foram na linha de que há algumas coisas mais fáceis de serem feitas no R e outras mais fáceis de serem feitas no Python. O melhor dos dois mundos estaria na utilização conjunta das duas ferramentas. *Agente Based Modeling*, por exemplo, seria mais fácil no Python. A elaboração de modelos estatísticos mais complexos, como Modelos Hierárquicos ou os Modelos P\* (ERGM's) para dados relacionais seriam mais fáceis no R.
 
-A partir disso, dedici realizar alguns testes com Python e tentar descobrir este melhor entre os dois mundos. Hoje vamos trabalhar algumas análises básicas das Análises de Redes Sociais (ARS) com o módulo `networkx` do Python. Tudo foi feito com Python 3.5 usando [Spyder](https://pythonhosted.org/spyder/). Vamos lá!
+A partir disso, dedici realizar alguns testes com Python e tentar descobrir este melhor entre os dois mundos. Hoje vamos trabalhar algumas análises básicas de Análises de Redes Sociais (ARS) com o módulo `networkx` do Python. Tudo foi feito com Python 3.5 usando [Spyder](https://pythonhosted.org/spyder/). Vamos lá!
 
 
 ```python
@@ -37,7 +37,7 @@ pos=nx.fruchterman_reingold_layout(G)      #definindo o algoritmo do layout
 plt.axis('off')                            #retira as bordas
 nx.draw_networkx_nodes(G,pos,node_size=50) #plota os nodes
 nx.draw_networkx_edges(G,pos,alpha=0.4)    #plota os ties
-plt.title('Egonet - Neylson', size=16)     # Título
+plt.title('Egonet - Neylson', size=16)     #Título
 plt.show()                                 #plota
 ```
 
@@ -70,7 +70,7 @@ deg.values()
 bet = nx.betweenness_centrality(G, normalized=False)
 # Transforma em DataFrame (pandas)
 between = pd.DataFrame.from_dict(data=bet, orient='index')
-# Apresenta apenas os valores do dicionário com os graus
+# Apresenta apenas os valores do dicionário com as centralidades de intermediação
 bet.values()
 ```
 
@@ -151,7 +151,7 @@ densidade
 
 
 
-Agora, vamos plotar a rede novamente fazendo com que o tamanho dos vértices varia por grau e por centralidade de intermediação.
+Agora, vamos plotar a rede novamente fazendo com que o tamanho dos vértices varie por grau e por centralidade de intermediação.
 
 
 ```python
