@@ -131,7 +131,11 @@ plt.show()
 ![](/img/redes_no_python/output_10_0.png)
 
 
-Vamos investigar a densidade desse grafo. A densidade é uma medida que mostra o quão conectada é uma rede. A densidade $\delta$ pode ser definida por $$\delta = \frac{L}{g(g-1)}$$ onde $g$ é o número de vértices e $L$ é o número de laços observados. Em suma, esta medida é calculada com o *número de laços observados sobre o número de laços possíveis na rede*. 
+Vamos investigar a densidade desse grafo. A densidade é uma medida que mostra o quão conectada é uma rede. A densidade delta pode ser definida por 
+
+![](/img/redes_no_python/formula_densidade.png)
+
+onde g é o número de vértices e L é o número de laços observados. Em suma, esta medida é calculada com o *número de laços observados sobre o número de laços possíveis na rede*. 
 
 
 ```python
@@ -254,7 +258,11 @@ stats.describe(grau)
 
 
 
-Agora, vamos investigar a assortatividade do componente principal. A assortatividade é uma medida de correlação que mostra se nós com grau alto se conectam a nós de mesmo grau ou parecidos (assortativa) ou se nós de grau alto se conectam com nós de graus diferentes (disassortativo). A medida é calculada por $$\rho_{D} = \frac{\sum_{jk}jk(e_{jk}-q_jq_k)}{\sigma_{q}^{2}} $$ onde $e_{jk}$ é o excesso conjunto da probabilidade dos graus de j e de k, $q$ é a distribuição normalizada do grau excedente de um nó aleatório e $\sigma_{q}^{2}$ é a variância de $q$. Vamos ao escore:
+Agora, vamos investigar a assortatividade do componente principal. A assortatividade é uma medida de correlação que mostra se nós com grau alto se conectam a nós de mesmo grau ou parecidos (assortativa) ou se nós de grau alto se conectam com nós de graus diferentes (disassortativo). A medida é calculada por 
+
+![](/img/redes_no_python/formula_rho.png)
+
+onde ejk é o excesso conjunto da probabilidade dos graus de j e de k, q é a distribuição normalizada do grau excedente de um nó aleatório e o denominador \sigma q ao quadrado é a variância de q. Vamos ao escore:
 
 
 ```python
@@ -269,6 +277,6 @@ r
 
 
 
-O $\rho$ de 0.35 mostra que a rede é assortativa, ou seja, nós com alto grau relacionam-se entre si.
+O rho de 0.35 mostra que a rede é assortativa, ou seja, nós com alto grau relacionam-se entre si.
 
 Por hoje é isso! Dúvidas, comentários, elogios e críticas, deixe aqui no final do post. Grande abraço!
