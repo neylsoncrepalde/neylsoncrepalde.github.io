@@ -6,8 +6,6 @@ date: 2016, October 9
 tags: [Python 3.5, Redes, Social Network Analysis]
 ---
 
-# Redes no Python com networkx
-
 Após um encontro marcante com o prof. [Davoud Taghawi-Nejad](https://www.facebook.com/taghawinejad) numa disciplina do MQ 2016 de *Agent Based Modeling* onde fui iniciado à programação em Python, fiquei com "a pulga atrás da orelha" sobre o poder dessa linguagem. Após alguma investigação preliminar, além de descobrir vários comentários de pessoas da área da computação exaltando a praticidade, facilidade e eficiência da linguagem, descobri também uma alta integração com `R`. Por que isso acontece?
 
 As principais justificativas mobilizadas foram na linha de que há algumas coisas mais fáceis de serem feitas no R e outras mais fáceis de serem feitas no Python. O melhor dos dois mundos estaria na utilização conjunta das duas ferramentas. *Agent Based Modeling*, por exemplo, seria mais fácil no Python. A elaboração de modelos estatísticos mais complexos, como Modelos Hierárquicos ou os Modelos P\* (ERGM's) para dados relacionais seriam mais fáceis no R.
