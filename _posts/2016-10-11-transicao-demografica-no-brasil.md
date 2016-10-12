@@ -37,4 +37,4 @@ Transição Demográfica no Brasil
 dPyramid('BR', seq(1960, 2050, 5), colors = c('blue', 'red'))
 ```
 
-<iframe src="http://walkerke.github.io/teaching-with-datavis/pyramids/cambodia.html" width="750" height="425" seamless scrolling="no" frameBorder = "0"></iframe>
+<iframe src="http://neylsoncrepalde.github.io/img/brasil_trasicao_demografica.html" width="850" height="425" seamless scrolling="no" frameBorder = "0"></iframe>
