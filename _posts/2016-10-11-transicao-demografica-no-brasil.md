@@ -22,7 +22,7 @@ library(devtools)
 install_github('ramnathv/rCharts@dev')
 ```
 
-Agora, vamos carregar as funções do pacote. Se você estiver usando o RStudio (altamente recomendável), use este comando:
+Agora, vamos carregar algumas funções para raspagem e plotagem desses dados escritas por Kyle Walker. Se você estiver usando o RStudio (altamente recomendável), use este comando:
 
 ``` r
 source('https://raw.githubusercontent.com/walkerke/teaching-with-datavis/master/pyramids/rcharts_pyramids.R')
