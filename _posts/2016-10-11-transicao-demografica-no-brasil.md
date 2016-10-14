@@ -2,7 +2,7 @@
 layout: post
 title: Transição Demográfica no Brasil
 author: Neylson Crepalde
-date: 2016, October 9
+date: 2016, October 11
 tags: [R programming, rstats, Transição Demográfica, Pirâmide etária]
 ---
 
