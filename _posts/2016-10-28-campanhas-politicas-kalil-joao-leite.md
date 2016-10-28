@@ -5,6 +5,7 @@ author: Neylson Crepalde e Maria Alice Silveira
 date: 2016, October 28
 tags: [R programming, rstats, Ciência Política, Belo Horizonte, 2º turno, Kalil, João Leite]
 ---
+### Por Neylson Crepalde e Maria Alice Silveira
 
 A disputa eleitoral pela prefeitura de Belo Horizonte tem se acirrado no 2º turno. Os candidatos Alexandre Kalil e João Leite trocam acusações e ferpas e também posições nas pesquisas. Resolvemos analisar, a partir das postagens realizadas nas páginas de Facebook dos candidatos, para onde e como é organizado o seu discurso político nesse momento. As páginas estão disponíveis nestes links: <https://www.facebook.com/AlexandreKalilOficial>, <https://www.facebook.com/joaoleiteBH>. Os dados foram raspados usando o aplicativo [Netvizz](https://apps.facebook.com/netvizz/).
 
