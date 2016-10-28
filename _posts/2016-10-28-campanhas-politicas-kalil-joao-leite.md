@@ -8,19 +8,12 @@ tags: [R programming, rstats, Ciência Política, Belo Horizonte, 2º turno, Kal
 
 A disputa eleitoral pela prefeitura de Belo Horizonte tem se acirrado no 2º turno. Os candidatos Alexandre Kalil e João Leite trocam acusações e ferpas e também posições nas pesquisas. Resolvemos analisar, a partir das postagens realizadas nas páginas de Facebook dos candidatos, para onde e como é organizado o seu discurso político nesse momento. As páginas estão disponíveis nestes links: <https://www.facebook.com/AlexandreKalilOficial>, <https://www.facebook.com/joaoleiteBH>. Os dados foram raspados usando o aplicativo [Netvizz](https://apps.facebook.com/netvizz/).
 
-Vamos às nuvens de palavras dos dois candidatos:
+Para os que quiserem replicar as análises, este post está disponível em sua versão **R Notebook** [aqui](http://neylsoncrepalde.github.io/kalil_jl.nb.html). Basta importá-lo no R. É necessário utilizar a versão preview do [RStudio (v1.0.44)](https://www.rstudio.com/products/rstudio/download/preview/).
 
-``` r
-wordcloud(ckalil, min.freq = 3, max.words = 100, random.order = F, colors = pal)
-title(xlab = "Facebook - Kalil\nDe 03/10/2016 a 27/10/2016")
-```
+Vamos às nuvens de palavras dos dois candidatos:
 
 ![](/img/kalil_jl_files/figure-markdown_github/unnamed-chunk-2-1.png)
 
-``` r
-wordcloud(cleite, min.freq = 3, max.words = 100, random.order = F, colors = pal)
-title(xlab = "Facebook - João Leite\nDe 03/10/2016 a 27/10/2016")
-```
 
 ![](/img/kalil_jl_files/figure-markdown_github/unnamed-chunk-4-1.png)
 
@@ -34,49 +27,15 @@ Em nenhuma das duas páginas foram encontradas menções significativas à palav
 
 Vamos verificar agora como as palavras usadas pelos candidatos se agrupam hierarquicamente. Esse método nos permite ter uma ideia dos assuntos gerais tratados por eles. Além disso, vamos ver como essas palavras se relacionam em rede. Isso nos permite olhar, com maior profundidade, o surgimento de temáticas no discurso dos candidatos.
 
-``` r
-plot(fit.ward2, main="Clusterização Hierárquica\nFacebook - Kalil", xlab = "De 03/10/2016 a 27/10/2016")
-rect.hclust(fit.ward2, k=5)
-```
 
 ![](/img/kalil_jl_files/figure-markdown_github/unnamed-chunk-6-1.png)
 
-``` r
-matriz <- as.matrix(df)
-
-g = graph_from_incidence_matrix(matriz)
-p = bipartite_projection(g, which = "FALSE")
-V(p)$shape = "none"
-deg = degree(p)
-
-plot(p, vertex.label.cex=deg/10, edge.width=(E(p)$weight)/2, 
-     edge.color=adjustcolor("grey60", .5),
-     vertex.label.color=adjustcolor("red", .7),
-     main = "Facebook - Kalil", xlab = "De 03/10/2016 a 27/10/2016")
-```
 
 ![](/img/kalil_jl_files/figure-markdown_github/unnamed-chunk-7-1.png)
 
-``` r
-plot(fit.ward2, main="Clusterização Hierárquica\nFacebook - João Leite", xlab = "De 03/10/2016 a 27/10/2016")
-rect.hclust(fit.ward2, k=6)
-```
 
 ![](/img/kalil_jl_files/figure-markdown_github/unnamed-chunk-9-1.png)
 
-``` r
-matriz <- as.matrix(df)
-
-g = graph_from_incidence_matrix(matriz)
-p = bipartite_projection(g, which = "FALSE")
-V(p)$shape = "none"
-deg = degree(p)
-
-plot(p, vertex.label.cex=deg/16, edge.width=(E(p)$weight)/2, 
-     edge.color=adjustcolor("grey60", .5),
-     vertex.label.color=adjustcolor("red", .7),
-     main = "Facebook - João Leite", xlab = "De 03/10/2016 a 27/10/2016")
-```
 
 ![](/img/kalil_jl_files/figure-markdown_github/unnamed-chunk-9-2.png)
 
