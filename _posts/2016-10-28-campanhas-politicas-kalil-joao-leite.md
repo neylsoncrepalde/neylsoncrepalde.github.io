@@ -9,7 +9,7 @@ tags: [R programming, rstats, Ciência Política, Belo Horizonte, 2º turno, Kal
 
 A disputa eleitoral pela prefeitura de Belo Horizonte tem se acirrado no 2º turno. Os candidatos Alexandre Kalil e João Leite trocam acusações e ferpas e também posições nas pesquisas. Resolvemos analisar, a partir das postagens realizadas nas páginas de Facebook dos candidatos, para onde e como é organizado o seu discurso político nesse momento. As páginas estão disponíveis nestes links: <https://www.facebook.com/AlexandreKalilOficial>, <https://www.facebook.com/joaoleiteBH>. Os dados foram raspados usando o aplicativo [Netvizz](https://apps.facebook.com/netvizz/).
 
-Para os que quiserem replicar as análises, este post está disponível em sua versão **R Notebook** [aqui](http://neylsoncrepalde.github.io/kalil_jl.nb.html). Basta importá-lo no R. É necessário utilizar a versão preview do [RStudio (v1.0.44)](https://www.rstudio.com/products/rstudio/download/preview/).
+Para os que quiserem replicar as análises, este post está disponível em sua versão [**R Notebook** aqui](http://neylsoncrepalde.github.io/kalil_jl.nb.html). Basta importá-lo no R. É necessário utilizar a versão preview do [RStudio (v1.0.44)](https://www.rstudio.com/products/rstudio/download/preview/).
 
 Vamos às nuvens de palavras dos dois candidatos:
 
