@@ -15,7 +15,6 @@ Primeiro, após importar as funções da biblioteca *Igraph*, vamos carregar a f
 
 ```python
 from igraph import *
-%matplotlib inline
 
 karate = Nexus.get("karate")
 karate.summary()
