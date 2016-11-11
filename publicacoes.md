@@ -3,7 +3,7 @@ layout: page
 title: Publicações
 author: Neylson Crepalde
 ---
-![artigo](/img/lapis.png) **DESEMPENHO UNIVERSITÁRIO NO BRASIL: Estudo sobre desigualdade educacional com dados do Enade 2014 (no prelo)**
+![artigo](/img/lapis.png) [**DESEMPENHO UNIVERSITÁRIO NO BRASIL: Estudo sobre desigualdade educacional com dados do Enade 2014 (2016)**](http://www.sbsociologia.com.br/revista/index.php/RBS/article/view/155)
 
 **Resumo**: O ensino superior brasileiro passou por etapas de expansão e diversificação ao longo das últimas duas décadas. A literatura sociológica, por sua vez, demonstra que as desigualdades educacionais podem estar associadas a diferentes níveis, a saber, individual e institucional. O presente trabalho analisa como se comportam estas desigualdades com relação ao desempenho dos alunos quando investigadas de forma desagregada por cursos de nível superior e quando controladas por instituição. Além disso, investigamos ainda a diferença de desempenho dos alunos de instituições de categorias administrativas diferentes considerando o “efeito escola”. Para tanto, usamos os dados do Enade 2014 e estimamos modelos lineares por mínimos quadrados ordinários e modelos hierárquicos. Nossos principais achados podem ser resumidos da seguinte forma: 1) o efeito das escolas sobre o desempenho dos alunos supera as diferenças de desempenho por sexo, raça e renda familiar; 2) as desigualdades se comportam de maneira distinta em cada curso chegando, algumas, a desaparecer.
 
