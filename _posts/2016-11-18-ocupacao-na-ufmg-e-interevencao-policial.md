@@ -2,7 +2,7 @@
 layout: post
 title: Ocupação na UFMG e intervenção policial - Twitter
 author: Neylson Crepalde
-date: 2016, November 05
+date: 2016, November 18
 tags: [rstats, Social Network Analysis, Igraph, PEC 55, MP Ensino Médio, PMMG]
 ---
 
