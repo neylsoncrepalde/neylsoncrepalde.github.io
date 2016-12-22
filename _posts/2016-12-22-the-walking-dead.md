@@ -324,7 +324,7 @@ plt.show()
 ![svg](/img/2016-12-22-the-walking-dead/output_19_0.svg)
 
 
-Apenas programando a possibilidade de escapar de um zumbi, podemos observar a esperança de sobrevivência da raça humana com cerca de 20 humanos remanescentes. Se essa possibilidade não existisse, o domínio zumbi total seria inevitável, como vimos na primeira simulaço. Agora, vamos comparar os dois cenários para verificar o remanescente humano em cada um.
+Apenas programando a possibilidade de escapar de um zumbi, podemos observar a esperança de sobrevivência da raça humana com cerca de 20 humanos remanescentes. Se essa possibilidade não existisse, o domínio zumbi total seria inevitável, como vimos na primeira simulação. Agora, vamos comparar os dois cenários para verificar o remanescente humano em cada um.
 
 
 ```python
