@@ -394,4 +394,4 @@ Clique no grafo abaixo e veja o vídeo!
 
 [![svg](/img/2016-12-22-the-walking-dead/output_23_0.svg)](https://raw.githubusercontent.com/neylsoncrepalde/diffusion_models/master/output.mp4)
 
-Por hoje  só! Ano que vem tem mais! Abraços
+Por hoje é só! Ano que vem tem mais! Abraços
