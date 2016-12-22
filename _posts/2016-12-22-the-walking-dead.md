@@ -324,7 +324,7 @@ plt.show()
 ![svg](/img/2016-12-22-the-walking-dead/output_19_0.svg)
 
 
-Agora, vamos comparar os dois cenários para verificar o remanescente humano em cada um.
+Apenas programando a possibilidade de escapar de um zumbi, podemos observar a esperança de sobrevivência da raça humana com cerca de 20 humanos remanescentes. Se essa possibilidade não existisse, o domínio zumbi total seria inevitável, como vimos na primeira simulaço. Agora, vamos comparar os dois cenários para verificar o remanescente humano em cada um.
 
 
 ```python
@@ -390,7 +390,7 @@ Podemos transformar todos os plots em um vídeo para facilitar a visualização 
 ffmpeg -framerate 1 -i image%03d.png output.mp4
 ```
 
-Veja aqui o vídeo!
+Clique no grafo abaixo e veja o vídeo!
 
 [![svg](/img/2016-12-22-the-walking-dead/output_23_0.svg)](https://raw.githubusercontent.com/neylsoncrepalde/diffusion_models/master/output.mp4)
 
