@@ -3,7 +3,7 @@ layout: post
 title: The Walking DEAD - um modelo de difusão social para o apocalipse zumbi!
 author: Neylson Crepalde
 date: 2016, December 22
-tags: [Python, rstats, Social Network Analysis]
+tags: [Python, rstats, Social Network Analysis, Network Diffusion Models, Infection Dynamics]
 ---
 
 
@@ -393,3 +393,5 @@ ffmpeg -framerate 1 -i image%03d.png output.mp4
 Veja aqui o vídeo!
 
 [![svg](/img/2016-12-22-the-walking-dead/output_23_0.svg)](https://raw.githubusercontent.com/neylsoncrepalde/diffusion_models/master/output.mp4)
+
+Por hoje  só! Ano que vem tem mais! Abraços
