@@ -23,7 +23,6 @@ import random
 import os
 from nxsim import NetworkSimulation, BaseNetworkAgent, BaseLoggingAgent
 
-%matplotlib inline
 sns.set_context('notebook')
 os.chdir('/home/neylson/diffusion_model')
 ```
