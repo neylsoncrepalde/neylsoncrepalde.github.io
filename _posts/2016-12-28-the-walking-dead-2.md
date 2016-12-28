@@ -571,7 +571,7 @@ ffmpeg -framerate 1 -i image%03d.png output.mp4
 
 Clique no grafo abaixo para visualizar:
 
-![png](/img/2016-12-28-the-walking-dead-2/output_24_0.png)
+[![png](/img/2016-12-28-the-walking-dead-2/output_24_0.png)](http://neylsoncrepalde.github.io/output_escape.mp4)
 
 
 Podemos ver claramente como os agentes que conseguiram "escapar" ficam isolados da rede de zumbis e à salvo. Agora, vamos plotar a dinâmica da densidade da rede. Poderíamos investigar qualquer outra medida comum à análise de redes sociais.
@@ -592,7 +592,7 @@ plt.show()
 ```
 
 
-[![png](/img/2016-12-28-the-walking-dead-2/output_26_0.png)](http://neylsoncrepalde.github.io/output_escape.mp4)
+![png](/img/2016-12-28-the-walking-dead-2/output_26_0.png)
 
 
 A medida da densidade mostra o quão conectada é a rede. Ela é obtida através do cálculo do número de laços observados sobre o número total de laços possíveis num grafo. Formalmente,
