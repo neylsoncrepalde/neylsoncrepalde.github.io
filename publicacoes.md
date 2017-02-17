@@ -3,6 +3,11 @@ layout: page
 title: Publicações
 author: Neylson Crepalde
 ---
+
+![artigo](/img/lapis.png) **A racionalização das práticas musicais: a regência de orquestra (no prelo - 2017)**
+
+**Resumo**: Este artigo parte da análise de Max Weber da racionalização da música que parece culminar no que é conhecido pelos músicos como temperamento e avança abordando o desenvolvimento da moderna técnica de regência de orquestra e seus principais elementos como manifestação do processo de racionalização nessas práticas musicais específicas. Para tanto, foram analisados três vídeos de maestros distintos interpretando o primeiro movimento da Sinfonia no. 5 de Beethoven. A análise consistiu da comparação entre os gestos escolhidos e respostas sonoras obtidas entre os três maestros. Procura-se mostrar que os três elementos passaram pelo processo de racionalização mas em níveis distintos. A mão direita possui o nível mais alto de racionalização enquanto a mão esquerda e a expressão facial-corporal possuem níveis  respectivamente mais baixos de racionalização.
+
 ![artigo](/img/lapis.png) [**DESEMPENHO UNIVERSITÁRIO NO BRASIL: Estudo sobre desigualdade educacional com dados do Enade 2014 (2016)**](http://www.sbsociologia.com.br/revista/index.php/RBS/article/view/155)
 
 **Resumo**: O ensino superior brasileiro passou por etapas de expansão e diversificação ao longo das últimas duas décadas. A literatura sociológica, por sua vez, demonstra que as desigualdades educacionais podem estar associadas a diferentes níveis, a saber, individual e institucional. O presente trabalho analisa como se comportam estas desigualdades com relação ao desempenho dos alunos quando investigadas de forma desagregada por cursos de nível superior e quando controladas por instituição. Além disso, investigamos ainda a diferença de desempenho dos alunos de instituições de categorias administrativas diferentes considerando o “efeito escola”. Para tanto, usamos os dados do Enade 2014 e estimamos modelos lineares por mínimos quadrados ordinários e modelos hierárquicos. Nossos principais achados podem ser resumidos da seguinte forma: 1) o efeito das escolas sobre o desempenho dos alunos supera as diferenças de desempenho por sexo, raça e renda familiar; 2) as desigualdades se comportam de maneira distinta em cada curso chegando, algumas, a desaparecer.
