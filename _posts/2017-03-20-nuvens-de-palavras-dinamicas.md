@@ -59,6 +59,7 @@ corpus = Corpus(VectorSource(enc2native(dificuldades)))
 tdm.word = TermDocumentMatrix(corpus) %>% as.matrix
 tdm.df = data.frame(words = rownames(tdm.word),
                     freq = apply(tdm.word,1,sum))
+wordcloud2(tdm.df, size=.6)
 ```
 
 <iframe src="http://neylsoncrepalde.github.io/word2.html" width="850" height="500" seamless scrolling="no" frameBorder = "0"></iframe>
