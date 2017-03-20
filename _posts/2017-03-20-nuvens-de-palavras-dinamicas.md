@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Nuvens de palavras dinâmicas com wordclou2 e corrigindo encoding
+title: Nuvens de palavras dinâmicas com wordcloud2 e corrigindo encoding
 author: Neylson Crepalde
 date: 2017, March 20
 tags: [R, Wordloud2, Encoding]
