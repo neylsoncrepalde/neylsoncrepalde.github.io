@@ -21,8 +21,8 @@ library(wordcloud)
 ```
 
 ``` r
-setwd("C:/Users/x6905399/Documents/RASTREIA/JUVENTUDES")
-dados <- fread('emprego_empreendedorismo.csv', encoding="UTF-8") %>% 
+setwd("C:/Users/Neylson/Documents/rpythoneredes/")
+dados <- fread('dados.csv', encoding="UTF-8") %>% 
   as.data.frame(., stringsAsFactors=F) %>% .[-2,]
 
 pal2 = brewer.pal(8,'Dark2')
