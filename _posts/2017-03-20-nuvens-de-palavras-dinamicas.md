@@ -61,7 +61,7 @@ tdm.df = data.frame(words = rownames(tdm.word),
                     freq = apply(tdm.word,1,sum))
 ```
 
-<iframe src="http://neylsoncrepalde.github.io/word2.html" width="850" height="425" seamless scrolling="no" frameBorder = "0"></iframe>
+<iframe src="http://neylsoncrepalde.github.io/word2.html" width="850" height="500" seamless scrolling="no" frameBorder = "0"></iframe>
 
 Muito elegante, hum? É possível ainda plotar wordclouds em letras específicas ou dentro de uma figura. Para mais informações, veja este link: <https://cran.r-project.org/web/packages/wordcloud2/vignettes/wordcloud.html>
 
