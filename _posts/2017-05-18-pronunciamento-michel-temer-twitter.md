@@ -57,7 +57,7 @@ wordcloud(corpus, min.freq=2,max.words=100, random.order=F, colors=pal2)
 
 ![](/img/post_twitter_temer_files/figure-markdown_github/unnamed-chunk-2-1.png)
 
-Agora vamos investigar quem são as pessoas que mais aparecem nesses tweets:
+Agora vamos investigar quem são as pessoas que mais aparecem nesses tweets, ou seja, quais são as contas mais retweetadas:
 
 ``` r
 pessoas <- str_extract_all(text, "@\\w+") %>% unlist
