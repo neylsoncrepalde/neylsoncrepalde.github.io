@@ -29,8 +29,8 @@ setup_twitter_oauth(consumer_key,
                     access_secret)
 
 tweets <- searchTwitter("Michel Temer", n=10000)
-bd <- ldply(tweets, function(t) t$toDataFrame() )
-View(bd)
+bd <- ldply(tweets, function(t) t$toDataFrame() )  # Salvando os tweets num banco de dados
+View(bd)                                           # Ver o banco
 
 text <- sapply(tweets, function(x) x$getText())
 ```
