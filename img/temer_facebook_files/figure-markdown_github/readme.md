@@ -1,0 +1,1 @@
+Imagens do post relacionado.
