@@ -4,7 +4,7 @@ title: Publicações
 author: Neylson Crepalde
 ---
 
-![artigo](/img/lapis.png) **A racionalização das práticas musicais: a regência de orquestra (no prelo - 2017)**
+![artigo](/img/lapis.png) [**A racionalização das práticas musicais: a regência de orquestra (2017)**](http://www.sbsociologia.com.br/revista/index.php/RBS/article/view/196)
 
 **Resumo**: Este artigo parte da análise de Max Weber da racionalização da música que parece culminar no que é conhecido pelos músicos como temperamento e avança abordando o desenvolvimento da moderna técnica de regência de orquestra e seus principais elementos como manifestação do processo de racionalização nessas práticas musicais específicas. Para tanto, foram analisados três vídeos de maestros distintos interpretando o primeiro movimento da Sinfonia no. 5 de Beethoven. A análise consistiu da comparação entre os gestos escolhidos e respostas sonoras obtidas entre os três maestros. Procura-se mostrar que os três elementos passaram pelo processo de racionalização mas em níveis distintos. A mão direita possui o nível mais alto de racionalização enquanto a mão esquerda e a expressão facial-corporal possuem níveis  respectivamente mais baixos de racionalização.
 
