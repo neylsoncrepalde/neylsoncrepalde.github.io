@@ -1,25 +1,21 @@
 ---
 layout: page
-title: "Search"
+title: "Busca"
 css: "/css/search.css"
+tipue_search_active: true
 ---
-# Search neylsoncrepalde.github.io
+## Busque no blog
 
-###Using Google
+<form action="{{ page.url | relative_url }}">
+  <div class="tipue_search_left"><img src="{{ "/assets/tipuesearch/search.png" | relative_url }}" class="tipue_search_icon"></div>
+  <div class="tipue_search_right"><input type="text" name="q" id="tipue_search_input" pattern=".{3,}" title="At least 3 characters" required></div>
+  <div style="clear: both;"></div>
+</form>
 
-<div id="google-custom-search">
+<div id="tipue_search_content"></div>
+
 <script>
-  (function() {
-    var cx = '008668879081464374344:7obftvjulha';
-    var gcse = document.createElement('script');
-    gcse.type = 'text/javascript';
-    gcse.async = true;
-    gcse.src = (document.location.protocol == 'https:' ? 'https:' : 'http:') +
-        '//www.google.com/cse/cse.js?cx=' + cx;
-    var s = document.getElementsByTagName('script')[0];
-    s.parentNode.insertBefore(gcse, s);
-  })();
+$(document).ready(function() {
+  $('#tipue_search_input').tipuesearch();
+});
 </script>
-<gcse:searchbox></gcse:searchbox>
-<gcse:searchresults></gcse:searchresults>
-</div>
