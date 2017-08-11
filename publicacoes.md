@@ -4,6 +4,10 @@ title: Publicações
 author: Neylson Crepalde
 ---
 
+![artigo](/img/lapis.png) [**Social Capital Inequalities among Postgraduate Students and Social Selection Processes (2017)**](http://csbc2017.mackenzie.br/public/files/6-brasnam/3.pdf)
+
+**Resumo**: This paper aims to discuss social capital inequalities between postgraduate students enrolled in a social sciences program in a Brazilian university. I analyze data from 47 postgraduate students using linear models, stochastic blockmodelling and the Social Selection Model (SSM). The analysis shows that social formations occur mainly from participation in research groups and from methodological perceived habilities.
+
 ![artigo](/img/lapis.png) [**A racionalização das práticas musicais: a regência de orquestra (2017)**](http://www.sbsociologia.com.br/revista/index.php/RBS/article/view/196)
 
 **Resumo**: Este artigo parte da análise de Max Weber da racionalização da música que parece culminar no que é conhecido pelos músicos como temperamento e avança abordando o desenvolvimento da moderna técnica de regência de orquestra e seus principais elementos como manifestação do processo de racionalização nessas práticas musicais específicas. Para tanto, foram analisados três vídeos de maestros distintos interpretando o primeiro movimento da Sinfonia no. 5 de Beethoven. A análise consistiu da comparação entre os gestos escolhidos e respostas sonoras obtidas entre os três maestros. Procura-se mostrar que os três elementos passaram pelo processo de racionalização mas em níveis distintos. A mão direita possui o nível mais alto de racionalização enquanto a mão esquerda e a expressão facial-corporal possuem níveis  respectivamente mais baixos de racionalização.
