@@ -70,7 +70,7 @@ Agora, mãos na massa. Criaremos um loop *for* para realizar as mesmas tarefas p
 
 9\. Escreve no banco de dados .csv o nome do arquivo da imagem, o número de faces, média, moda e variância;
 
-10\. Exibe uma mensagem reconfortante de missão cumprida com os dizeres "Cabô, manolo!" (by [Wesley Matheus](https://www.facebook.com/wesley.matheus.777701)).
+10\. Exibe uma mensagem reconfortante de missão cumprida com os dizeres "Cabô, manolo!".
 
 Há ainda uma opção para exibir, uma por uma, as figuras com os retângulos. Se forem apenas algumas poucas imagens, é interessante verificar em tempo real como está o reconhecimento. Se forem umas 500 imagens pode ser que você gaste um tempinho fazendo isso... Melhor não... Para habilitar, é só "descomentar" as três linhas.
 
