@@ -776,7 +776,7 @@ plt.show()
 ![png](/img/2018-02-25-regressao-linear-python/output_13_0.png)
 
 
-Agora, vamos observar apresentar apenas os coeficientes da regressão se quisermos facilitar a análise e traçar a reta de regressão entre as variáveis $y$ e $x_1$.
+Agora, vamos observar apresentar apenas os coeficientes da regressão se quisermos facilitar a análise e traçar a reta de regressão entre as variáveis *y* e *x1*.
 
 
 ```python
