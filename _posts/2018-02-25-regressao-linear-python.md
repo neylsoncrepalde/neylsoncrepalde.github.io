@@ -672,11 +672,7 @@ dados['y'].describe()
 ```
 
     Estatísticas descritivas de y:
-
-
-
-
-
+    
     count    100.000000
     mean       3.709140
     std        4.417438
