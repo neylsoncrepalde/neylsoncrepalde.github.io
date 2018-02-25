@@ -709,37 +709,73 @@ reg = sm.ols(formula='y~x1+x2+x3+x4+categoria', data=dados).fit()
 print(reg.summary())
 ```
 
-```
-                        OLS Regression Results                            
-==============================================================================
-Dep. Variable:                      y   R-squared:                       0.941
-Model:                            OLS   Adj. R-squared:                  0.938
-Method:                 Least Squares   F-statistic:                     301.7
-Date:                Sun, 25 Feb 2018   Prob (F-statistic):           2.98e-56
-Time:                        12:04:15   Log-Likelihood:                -148.15
-No. Observations:                 100   AIC:                             308.3
-Df Residuals:                      94   BIC:                             323.9
-Df Model:                           5                                         
-Covariance Type:            nonrobust                                         
-==============================================================================
-                 coef    std err          t      P>|t|      [0.025      0.975]
-------------------------------------------------------------------------------
-Intercept      2.9649      0.157     18.867      0.000       2.653       3.277
-x1             2.0837      0.118     17.692      0.000       1.850       2.318
-x2             0.7515      0.105      7.181      0.000       0.544       0.959
-x3             3.2290      0.106     30.330      0.000       3.018       3.440
-x4            -1.8808      0.107    -17.508      0.000      -2.094      -1.668
-categoria      1.3788      0.223      6.191      0.000       0.937       1.821
-==============================================================================
-Omnibus:                        0.518   Durbin-Watson:                   2.065
-Prob(Omnibus):                  0.772   Jarque-Bera (JB):                0.655
-Skew:                           0.145   Prob(JB):                        0.721
-Kurtosis:                       2.730   Cond. No.                         2.83
-==============================================================================
-
-Warnings:
-[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
-```
+<table class="simpletable">
+<caption>OLS Regression Results</caption>
+<tr>
+  <th>Dep. Variable:</th>            <td>y</td>        <th>  R-squared:         </th> <td>   0.959</td>
+</tr>
+<tr>
+  <th>Model:</th>                   <td>OLS</td>       <th>  Adj. R-squared:    </th> <td>   0.957</td>
+</tr>
+<tr>
+  <th>Method:</th>             <td>Least Squares</td>  <th>  F-statistic:       </th> <td>   442.1</td>
+</tr>
+<tr>
+  <th>Date:</th>             <td>Sun, 25 Feb 2018</td> <th>  Prob (F-statistic):</th> <td>1.17e-63</td>
+</tr>
+<tr>
+  <th>Time:</th>                 <td>12:48:30</td>     <th>  Log-Likelihood:    </th> <td> -132.89</td>
+</tr>
+<tr>
+  <th>No. Observations:</th>      <td>   100</td>      <th>  AIC:               </th> <td>   277.8</td>
+</tr>
+<tr>
+  <th>Df Residuals:</th>          <td>    94</td>      <th>  BIC:               </th> <td>   293.4</td>
+</tr>
+<tr>
+  <th>Df Model:</th>              <td>     5</td>      <th>                     </th>     <td> </td>   
+</tr>
+<tr>
+  <th>Covariance Type:</th>      <td>nonrobust</td>    <th>                     </th>     <td> </td>   
+</tr>
+</table>
+<table class="simpletable">
+<tr>
+      <td></td>         <th>coef</th>     <th>std err</th>      <th>t</th>      <th>P>|t|</th>  <th>[0.025</th>    <th>0.975]</th>  
+</tr>
+<tr>
+  <th>Intercept</th> <td>    2.6426</td> <td>    0.154</td> <td>   17.184</td> <td> 0.000</td> <td>    2.337</td> <td>    2.948</td>
+</tr>
+<tr>
+  <th>x1</th>        <td>    2.0440</td> <td>    0.100</td> <td>   20.403</td> <td> 0.000</td> <td>    1.845</td> <td>    2.243</td>
+</tr>
+<tr>
+  <th>x2</th>        <td>    0.7448</td> <td>    0.102</td> <td>    7.272</td> <td> 0.000</td> <td>    0.541</td> <td>    0.948</td>
+</tr>
+<tr>
+  <th>x3</th>        <td>    3.0630</td> <td>    0.094</td> <td>   32.739</td> <td> 0.000</td> <td>    2.877</td> <td>    3.249</td>
+</tr>
+<tr>
+  <th>x4</th>        <td>   -1.8298</td> <td>    0.102</td> <td>  -17.876</td> <td> 0.000</td> <td>   -2.033</td> <td>   -1.627</td>
+</tr>
+<tr>
+  <th>categoria</th> <td>    1.7417</td> <td>    0.193</td> <td>    9.014</td> <td> 0.000</td> <td>    1.358</td> <td>    2.125</td>
+</tr>
+</table>
+<table class="simpletable">
+<tr>
+  <th>Omnibus:</th>       <td> 0.782</td> <th>  Durbin-Watson:     </th> <td>   1.901</td>
+</tr>
+<tr>
+  <th>Prob(Omnibus):</th> <td> 0.676</td> <th>  Jarque-Bera (JB):  </th> <td>   0.862</td>
+</tr>
+<tr>
+  <th>Skew:</th>          <td>-0.100</td> <th>  Prob(JB):          </th> <td>   0.650</td>
+</tr>
+<tr>
+  <th>Kurtosis:</th>      <td> 2.591</td> <th>  Cond. No.          </th> <td>    3.31</td>
+</tr>
+</table>
 
 Vamos começar pela primeira tabela apresentada. As medidas mais importantes para nós neste momento são o *R2* ajustado, a estatística de teste F, o p-valor dessa estatística e, caso queiramos comparar diferentes modelos, o log-likelihood, o *Akaike Information Criterion* (AIC) e o *Bayesian Information Criterion* (BIC). 
 
