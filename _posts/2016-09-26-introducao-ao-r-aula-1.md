@@ -6,7 +6,7 @@ date: 2016, September 26
 tags: [R programming, rstats]
 ---
 
-Olá! Esta é a primeira aula do curso **Introdução ao R** do MQuinho 2016. Este material foi amplamente inspirado no curso homônimo do [Rogério Barbosa](https://www.facebook.com/rogerio.barbosa.7528) e no curso *Introduction to Statistical Learning with Applications in R* de Trevor Hastie e Robert Tibshirani (livro disponibilizado pelos autores [aqui](http://www-bcf.usc.edu/~gareth/ISL/)). Vamos começar!
+Olá! Esta é a primeira aula do curso **Introdução ao R**. Este material foi amplamente inspirado no curso homônimo do [Rogério Barbosa](https://www.facebook.com/rogerio.barbosa.7528) e no curso *Introduction to Statistical Learning with Applications in R* de Trevor Hastie e Robert Tibshirani (livro disponibilizado pelos autores [aqui](http://www-bcf.usc.edu/~gareth/ISL/)). Vamos começar!
 
 ## Comandos básicos
 
