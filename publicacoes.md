@@ -4,7 +4,7 @@ title: Publicações
 author: Neylson Crepalde
 ---
 
-![artigo](/img/lapis.png) [**AGENTES PENITENCIÁRIOS APRISIONADOS EM SUAS REDES? (2019)**] (http://www.scielo.br/scielo.php?script=sci_arttext&pid=S0102-69092019000300502&lng=en&nrm=iso&tlng=pt)
+![artigo](/img/lapis.png) [**AGENTES PENITENCIÁRIOS APRISIONADOS EM SUAS REDES? (2019)**](http://www.scielo.br/scielo.php?script=sci_arttext&pid=S0102-69092019000300502&lng=en&nrm=iso&tlng=pt)
 
 **Resumo**: Neste trabalho, investigamos os componentes das redes pessoais de agentes prisionais e problematizamos se a maior restrição ao ambiente custodial pode ser vista como um efeito do trabalho em penitenciárias. Para tanto, foram utilizadas as entrevistas em profundidade (realizadas entre 2015 e 2017), com presos e agentes da Região Metropolitana de Belo Horizonte (RMBH), e os questionários sociométricos aplicados a esses mesmos sujeitos. A partir desses dados, comparamos as redes pessoais dos agentes penitenciários com as dos presos, e utilizamos os seus discursos sobre padrões de interação, dentro e fora da prisão, para entendimento das configurações assumidas. Com isso, constatamos que, muitas vezes, os funcionários do cárcere têm redes mais restritas ao universo prisional, do que os próprios internos, o que é descrito por tais entrevistados como um processo de aprisionamento decorrente do trabalho custodial.
 
