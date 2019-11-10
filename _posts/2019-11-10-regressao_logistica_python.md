@@ -236,7 +236,7 @@ freq(titanic.Pclass, plot=True)
 ```
 
 
-![png](output_6_0.png)
+![png](/img/2019-11-10-regressao-logistica/output_6_0.png)
 
 
 
@@ -296,7 +296,7 @@ freq(titanic.Sex, plot=True)
 ```
 
 
-![png](output_7_0.png)
+![png](/img/2019-11-10-regressao-logistica/output_7_0.png)
 
 
 
@@ -372,7 +372,7 @@ plt.show()
 ```
 
 
-![png](output_9_0.png)
+![png](/img/2019-11-10-regressao-logistica/output_9_0.png)
 
 
 ---
@@ -616,7 +616,7 @@ pd.crosstab(y, model.predict(X))  # fazendo "na mão"
 
 As métricas que vamos utilizar podem ser sintetizadas na figura abaixo:
 
-![metricas](/img/2019-11-11-regressao-logistica/metricas_class.png)
+![metricas](/img/2019-11-10-regressao-logistica/metricas_class.png)
 Fonte: https://towardsdatascience.com/understanding-confusion-matrix-a9ad42dcfd62
 
 Vamos começar com a `acurácia`. Ela representa um percentual total de acertos do modelo.
@@ -701,7 +701,7 @@ plot_roc_curve(y, yhat)
 ```
 
 
-![roc_curve](/img/2019-11-11-regressao-logistica/output_34_0.png)
+![roc_curve](/img/2019-11-10-regressao-logistica/output_34_0.png)
 
 
 Podemos considerar uma área debaixo da curva de mais de 0.7 como *aceitável*. Mais de 0.8 parece bom. Mais de .9 está excelente. Há também outras métricas que podemos explorar.
