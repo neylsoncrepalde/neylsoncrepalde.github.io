@@ -386,7 +386,9 @@ Agora vamos estimar uma regressão logística para investigar as chances de sobr
 
 O modelo terá essa configuração:
 
+
 ![logit](/img/2019-11-10-regressao-logistica/formula.png)
+
 
 Vamos lá:
 
@@ -617,7 +619,7 @@ pd.crosstab(y, model.predict(X))  # fazendo "na mão"
 As métricas que vamos utilizar podem ser sintetizadas na figura abaixo:
 
 ![metricas](/img/2019-11-10-regressao-logistica/metricas_class.png)
-Fonte: https://towardsdatascience.com/understanding-confusion-matrix-a9ad42dcfd62
+Fonte: [https://towardsdatascience.com/understanding-confusion-matrix-a9ad42dcfd62](https://towardsdatascience.com/understanding-confusion-matrix-a9ad42dcfd62)
 
 Vamos começar com a `acurácia`. Ela representa um percentual total de acertos do modelo.
 
