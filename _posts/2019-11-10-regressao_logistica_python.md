@@ -386,7 +386,7 @@ Agora vamos estimar uma regressão logística para investigar as chances de sobr
 
 O modelo terá essa configuração:
 
-$$logit = ln \left( \frac{p}{1-p} \right) = \beta_0 + \beta_1 idade + \beta_2 classe2 + \beta_3 classe3 + \beta_4 female$$
+![logit](/img/2019-11-10-regressao-logistica/formula.png)
 
 Vamos lá:
 
