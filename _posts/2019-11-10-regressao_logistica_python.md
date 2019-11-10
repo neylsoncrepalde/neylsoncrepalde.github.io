@@ -182,7 +182,7 @@ freq(titanic.Survived, plot=True)
 ```
 
 
-![png](output_5_0.png)
+![png](/img/2019-11-10-regressao-logistica/output_5_0.png)
 
 
 
