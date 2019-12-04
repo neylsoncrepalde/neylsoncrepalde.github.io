@@ -541,13 +541,13 @@ Agora vamos avaliar a qualidade do ajuste de nosso modelo. A maioria das métric
 
 |            | Pred 0 | Pred 1 |
 |------------|--------|--------|
-| **Real 0** | TN     | FN     |
-| **Real 1** | FP     | TP     |
+| **Real 0** | TN     | FP     |
+| **Real 1** | FN     | TP     |
 
 Onde TP (*True Positives*) são os "uns" que o modelo acertou,
-FP (*False Positives*) são os "uns" que o modelo errou (predisse como 0 - ERRO DO TIPO 1),
+FP (*False Positives*) são os "uns" que o modelo errou (era 0 e predisse como 1 - ERRO DO TIPO 1),
 TN (*True Negatives*) são os zeros que o modelo acerto e
-FN (*False Negatives*) são os zeros que o modelo errou (predisse como 1 - ERRO DO TIPO 2).
+FN (*False Negatives*) são os zeros que o modelo errou (era 1 e predisse como 0 - ERRO DO TIPO 2).
 
 Vejamos a matriz de confusão do modelo que estimamos:
 
