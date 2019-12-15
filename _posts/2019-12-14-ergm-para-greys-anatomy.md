@@ -3,10 +3,10 @@ layout: post
 title: ERGM para Grey's Anatomy em Python
 author: David Masad (trad. Neylson Crepalde)
 date: 2019, December 14
-tags: [Python, Logistic Regression, Classification Metrics, Data Science]
+tags: [Python, Networks, ERGM, MCMC, Bayesian Inference]
 ---
 
-Estudando ERGMs, esbarrei neste excelente tutorial o qual traduzi para disponibilizá-lo à comunidade de língua portuguesa. A tradução conta com a autorização do autor. A partir daqui, as linhas são dele! ;)
+Estudando ERGMs, esbarrei neste excelente tutorial o qual traduzi para disponibilizá-lo à comunidade de língua portuguesa. A tradução conta com a autorização do autor, [David Masad](https://twitter.com/badnetworker). A partir daqui, as linhas são dele! ;)
 
 ---
 
