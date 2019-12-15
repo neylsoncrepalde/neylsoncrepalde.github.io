@@ -38,7 +38,7 @@ Os dados vêm em duas tabelas: a tabela de adjacência nos dá o grafo em si, e 
 
 O NetworkX não possui um *loader* nativo para uma matriz de adjacência com nomes de linhas e colunas. Portanto, vamos importá-la manualmente. Primeiro, pegamos a primeira linha que nos diz quantos nós existem. Vamos utilizar essa linha para colocar os labels.
 
-O primeiro comando utiliza o método wget para baixar os dados do repositório. Em seguida vamos movê-los para a pasta `data`.
+O primeiro comando utiliza o método wget para baixar os dados do repositório. Em seguida vamos movê-los para a pasta `data`. Lembre-se de que esses comandos só funcionam assim em Jupyter Notebook. Se estiver utilizando uma IDE, pode executá-los no terminal sem a `!`.
 
 
 ```python
