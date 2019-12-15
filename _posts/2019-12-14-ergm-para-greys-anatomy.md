@@ -294,7 +294,7 @@ gender_match_mat = node_match(G, 'sex')
 
 Agora vamos trazer ao PyMC variáveis estocásticas para os coeficientes em ambas as matrizes de estatísticas. O início para elas pode ser arbitrário, mas queremos que elas sejam capazes de receber qualquer valor, negativo ou positivo, e sejam centradas em 0. Então, optamos por uma distribuição normal.
 
-O termo de fato para cada estatística é o coeficiente vezes a matriz; visto que esses valores são completamente independentes em variáveis estocásticas, elas são variáveis determinísticas em si mesmas no PyMC.
+O termo de fato para cada estatística é o coeficiente vezes a matriz; visto que esses valores são completamente independentes em variáveis estocásticas, elas são variáveis determinísticas no PyMC.
 
 
 ```python
